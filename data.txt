@@ -328,3 +328,303 @@ Answer: Types of data theft and breaches include theft or exposure of personal d
 ### Document 110
 Question: What is the meaning of Distributed Denial-of-Service (DDoS)?
 Answer: A Distributed Denial-of-Service, or DDoS, attack is a denial-of-service attack in which overwhelming traffic comes from more than one source. CISA explains that a DoS attack prevents legitimate users from accessing systems or network resources, and it becomes DDoS when the overloading traffic originates from multiple devices, often a botnet. The purpose of a DDoS attack is not usually to steal data directly, but to degrade, deny, or disrupt availability by exhausting bandwidth, connections, or system resources.
+### Document 111
+Question: What is the meaning of online child sexual exploitation (OCSE)?
+Answer: Online child sexual exploitation means using the internet or digital technologies to sexually exploit a person under 18. It includes grooming, coercion, manipulation, livestreamed abuse, and the production or sharing of child sexual abuse material through online platforms and devices. Europol and DHS child-safety guidance both treat it as a form of child sexual abuse carried out or enabled in digital environments.
+### Document 112
+Question: What is the meaning of Child Sexual Abuse Material (CSAM)?
+Answer: Child Sexual Abuse Material, or CSAM, means any visual depiction of sexually explicit conduct involving a person younger than 18. The term is used because these images and videos are evidence of child sexual abuse, not merely inappropriate content. Current DHS and DOJ materials emphasize that creating, possessing, or distributing CSAM is a serious crime tied directly to the exploitation of children.
+### Document 113
+Question: What is the meaning of digital sextortion?
+Answer: Digital sextortion is a crime in which an offender coerces or threatens a victim online using real or requested intimate images, videos, or sexual acts. Recent FBI and FinCEN guidance shows that offenders often use fake personas, then threaten to release sexual material unless the victim sends more content, money, or gift cards. Although minors are especially vulnerable, financially motivated sextortion can target people of many ages.
+### Document 114
+Question: What is the meaning of cyber extortion?
+Answer: Cyber extortion is the use of computers, networks, or stolen digital data to threaten harm unless the victim pays money or complies with demands. The threatened harm may involve ransomware, data leaks, denial-of-service attacks, or other disruptive or embarrassing actions. In simple terms, it modernizes traditional extortion by making the pressure and damage digital.
+### Document 115
+Question: What are the key components of cybercrime-as-a-service (CaaS)?
+Answer: The key components of Cybercrime-as-a-Service include specialized vendors, packaged attack tools, stolen or leaked data, online marketplaces, forums, encrypted chat platforms, and payment mechanisms such as cryptocurrency. Current Microsoft and Canadian government reporting also highlights service categories such as Malware-as-a-Service, Ransomware-as-a-Service, Access-as-a-Service, Phishing-as-a-Service, DDoS-as-a-Service, and Exploits-as-a-Service. Together, these components lower the barrier to entry by letting less-skilled criminals buy tools, infrastructure, and support instead of building them themselves.
+### Document 116
+Question: What is the meaning of botnet?
+Answer: A botnet is a network of compromised devices that an attacker remotely controls as a group. NIST’s glossary explains that criminals infect multiple computers, take control of them, and organize them into a network of “bots” that can be managed centrally. Botnets are commonly used for DDoS attacks, spam, credential attacks, malware delivery, and other coordinated malicious activity.
+### Document 117
+Question: What is an underground forum?
+Answer: An underground forum is an online discussion and trading venue used by criminals to communicate, exchange knowledge, and buy or sell illicit goods or services. Current Canadian and U.S. government reporting shows that these forums are used to purchase tools, connect with other offenders, and trade stolen credentials, databases, and cybercrime services. In practice, an underground forum functions as both a social hub and a marketplace inside the cybercrime ecosystem.
+### Document 118
+Question: What is a cybercrime market?
+Answer: A cybercrime market is the broader illicit economy where criminals buy, sell, lease, or resell stolen data, tools, access, infrastructure, and attack services. Government reporting describes these markets as criminal platforms that function similarly to legitimate online marketplaces, but for cybercrime goods and services. This market model is a major reason cybercrime has become scalable, specialized, and accessible to a wider range of offenders.
+### Document 119
+Question: What is the meaning of financial cybercrime?
+Answer: Financial cybercrime means cyber-enabled criminal activity aimed at stealing money, financial assets, payment credentials, or other economic value. INTERPOL’s 2026 threat assessment describes financial fraud as one of the world’s most severe and rapidly evolving transnational crimes, increasingly intersecting with organized crime and cybercrime. In practical terms, financial cybercrime includes scams, account takeovers, payment fraud, investment fraud, business email compromise, and related schemes conducted through digital systems.
+### Document 120
+Question: What is an organized cybercrime group?
+Answer: An organized cybercrime group is a coordinated criminal network whose members work together to plan, support, and carry out cyber-enabled crimes. Recent reporting from Microsoft, the World Economic Forum, and INTERPOL shows that these groups increasingly resemble businesses, with specialization of labor, shared infrastructure, outsourced services, and collaboration across borders. They are “organized” not just because they commit crimes together, but because they operate through structured roles, repeatable workflows, and a wider criminal ecosystem that helps them scale.
+### Document 121
+Question: What is cryptocurrency?
+Answer: Cryptocurrency is a type of digital asset that is created, stored, and transferred electronically using cryptographic techniques. Official European Central Bank material describes crypto-assets as digital assets that users store and exchange electronically in a peer-to-peer way, typically without relying on a traditional trusted intermediary. In common use, cryptocurrency usually refers to crypto-assets such as Bitcoin or Ether that operate on blockchain or other distributed ledger systems.
+### Document 122
+Question: How does cryptocurrency work?
+Answer: Cryptocurrency works by recording transactions on a distributed ledger maintained by a network of computers rather than a single central database. NIST explains that blockchain networks provide secure transaction reconciliation, linkage, and storage in integrity-protected distributed ledgers, while transactions update ownership or control of digital assets according to network rules. In practice, users authorize transfers with cryptographic keys, and the network validates and records those transfers so the ledger stays consistent across participants.
+### Document 123
+Question: What are the types of cryptocurrency?
+Answer: Common types of cryptocurrency include native coins such as Bitcoin, platform coins such as Ether, stablecoins that aim to track the value of another asset, and other tokenized crypto-assets used for specific network functions. ECB material distinguishes between different crypto-asset categories, including assets that are not liabilities of any issuer and stablecoins, which shows that the ecosystem is not one single uniform type. A practical way to group them is by purpose, such as payment-oriented coins, smart-contract platform assets, stable-value tokens, and utility or governance tokens.
+### Document 124
+Question: What is cryptocurrency used for?
+Answer: Cryptocurrency is used for peer-to-peer transfers, trading and speculation, settlement of tokenized transactions, access to blockchain-based services, and in some cases payments. NIST notes that blockchain-based tokens can support transaction settlement, user-centric ownership models, and interoperable digital representations, while ECB sources describe crypto-assets as assets exchanged electronically over DLT-style systems. In reality, usage varies widely by asset, with some mainly used for investment and network operations rather than everyday consumer payments.
+### Document 125
+Question: What is decentralized network?
+Answer: A decentralized network is a network in which control, validation, or record-keeping is distributed across multiple participants rather than concentrated in one central authority or repository. NIST describes blockchain systems as distributed digital ledger systems implemented without a central repository and usually without a central authority. In simple terms, a decentralized network spreads responsibility across many nodes so no single operator fully controls the whole system.
+### Document 126
+Question: How does decentralized network work?
+Answer: A decentralized network works by having multiple nodes maintain, validate, share, or synchronize the same system state according to agreed rules or protocols. In blockchain-style decentralized networks, each participant can hold or verify ledger data, and updates are accepted only when the network’s protocol determines they are valid. This design reduces dependence on one central server or institution and can improve resilience, transparency, or fault tolerance, depending on the architecture.
+### Document 127
+Question: What are the types of decentralized networks?
+Answer: Types of decentralized networks commonly include public permissionless networks, private permissioned networks, and consortium or hybrid networks with shared governance. NIST materials distinguish permissionless blockchains, which are generally open to broad participation, from permissioned blockchains, where participation is private or controlled. Beyond blockchain, decentralized networks can also be categorized by function, such as storage networks, identity networks, communication networks, and distributed computing systems.
+### Document 128
+Question: What is decentralized networks used for?
+Answer: Decentralized networks are used for shared record-keeping, asset transfer, tokenization, identity-related services, smart contracts, and other applications that benefit from distributed trust or shared control. ECB and NIST materials both highlight uses related to digital assets, tokenization, and transaction processing on distributed ledger infrastructures. More broadly, organizations explore decentralized networks when they want multiple parties to coordinate on data or transactions without relying entirely on one central operator.
+### Document 129
+Question: What is blockchain?
+Answer: Blockchain is a collaborative, tamper-resistant ledger that maintains transaction records in grouped data blocks. NIST explains that each block is linked to the previous one using a unique identifier based on the earlier block’s data, which makes later changes visible and provides tamper evidence. At a high level, blockchain is one form of distributed ledger technology designed to let a community record and share transactions in a consistent way.
+### Document 130
+Question: How does blockchain work?
+Answer: Blockchain works by collecting transactions into blocks, validating them under the network’s rules, and appending each new block to the chain with a cryptographic link to the previous block. Because each block depends on the data before it, changing a past record changes its identifier and creates visible inconsistencies in later blocks. Under normal operation, this lets participants maintain a shared ledger in which published transactions are difficult to alter without detection.
+### Document 131
+Question: What is money laundering?
+Answer: Money laundering is the process of making criminal proceeds appear legitimate so they can be used with less risk of detection or seizure. The IMF describes money laundering as tied to underlying “predicate” crimes and warns that it can threaten the integrity and stability of the financial sector and the broader economy. In plain terms, it is the financial concealment stage that helps criminals enjoy the proceeds of crime.
+### Document 132
+Question: How does money laundering work?
+Answer: Money laundering usually works by moving illicit money through a sequence of transactions that obscures its source and makes it look lawful. FATF’s standard model describes three classic stages: placement into the financial system, layering through conversions or transfers to distance the funds from their origin, and integration back into the economy with an appearance of legitimacy. Not every case follows those stages neatly, but the core idea is always to disguise origin, ownership, and control.
+### Document 133
+Question: What are the key components of money laundering?
+Answer: The key components of money laundering are the criminal proceeds themselves, a method for inserting or moving value, mechanisms for concealment, and a final route to reintroduce the money as apparently legitimate wealth. FATF’s framework centers on placement, layering, and integration, which together explain how illicit value is introduced, obscured, and absorbed into the legal economy. In practice, facilitators such as shell entities, trade transactions, financial accounts, and sometimes virtual assets may all be used to support those components.
+### Document 134
+Question: What are the types of money laundering?
+Answer: Common types of money laundering include cash-based laundering, trade-based money laundering, laundering through shell companies, laundering through real estate, and laundering through virtual assets. FATF specifically defines trade-based money laundering as disguising criminal proceeds and moving value through trade transactions to legitimize illicit origins, while FinCEN has repeatedly flagged shell companies and real estate as important laundering channels. More recently, AML authorities also treat virtual-asset misuse as a meaningful laundering typology alongside these more traditional methods.
+### Document 135
+Question: How is money laundering used in cybercrime?
+Answer: In cybercrime, money laundering is used to convert proceeds from fraud, ransomware, theft, and other digital offenses into spendable assets while obscuring the link to the original crime. Chainalysis reports that laundering stolen crypto and scam proceeds often spreads across many asset types, while FATF and FinCEN continue to warn that virtual assets can be used for criminal activity and laundering. The laundering step is what helps cybercriminals move from a successful attack to actual financial benefit.
+### Document 136
+Question: What cryptocurrencies are used in cybercrime?
+Answer: Cryptocurrencies used in cybercrime are not limited to one asset, but recent reporting shows that Bitcoin remains especially important in ransomware and darknet market activity. Chainalysis states that ransomware and darknet market sales remain BTC-dominated, while Monero is increasingly important in parts of the darknet ecosystem and scams or laundering of stolen funds often spread across many asset types. That means cybercriminal use is best understood by activity type rather than by assuming one coin dominates every category.
+### Document 137
+Question: What is the impact of cybercrime?
+Answer: The impact of cybercrime includes financial loss, service disruption, data theft, reputational damage, erosion of trust, and wider harm to economic and social stability. UNODC says cybercrime has grown into a thriving, highly profitable industry threatening governments, businesses, and people worldwide, while NIST notes that cybercrime losses can reach billions in lost revenue and productivity and can damage customer trust. In real terms, the impact is both immediate, such as fraud and downtime, and systemic, such as weakened resilience and confidence in digital systems.
+### Document 138
+Question: What are the trends of cybercrime?
+Answer: Current cybercrime trends include increasing industrialization, greater use of criminal services, data theft as a central commodity, and heavier exploitation of human vulnerabilities alongside technical weaknesses. Europol’s IOCTA 2025 says data is the central commodity of the cybercrime economy and that criminals acquire it through both system vulnerabilities and human oversight, while UNODC describes cybercrime as a highly profitable global industry. Another major trend is ecosystem specialization, where access brokers, data brokers, scam operators, and service providers each play distinct roles in a broader criminal market.
+### Document 139
+Question: What are the core types of cybercrime?
+Answer: The core types of cybercrime are generally grouped into cyber-dependent crimes and cyber-enabled crimes. UNODC explains that cybercrime broadly encompasses both cyber-dependent criminal activity, which relies on ICT systems as the target or essential means, and cyber-enabled criminal activity, where traditional crimes such as fraud are amplified by digital technology. This distinction is useful because it separates crimes that require computers to exist from crimes that are merely scaled or accelerated by them.
+### Document 140
+Question: What are the key components of criminal ecosystem?
+Answer: The key components of a criminal ecosystem include offenders, facilitators, access brokers, data brokers, marketplaces, communication channels, payment methods, and the infrastructure used to deliver and monetize crime. Europol’s IOCTA 2025 highlights criminal platforms dedicated to data trade, initial-access brokers, breached-data brokers, and closed communication channels where parts of the ecosystem function, while cybercrime-as-a-service models add packaged tools and support. Together, these components make modern cybercrime more scalable, specialized, and resilient than isolated one-off offending.
+### Document 141
+Question: What are the key components of command and control (C2)?
+Answer: The key components of command and control usually include compromised endpoints, C2 infrastructure such as servers or relay nodes, a communications channel, and logic for tasking, reporting, and sometimes data exfiltration. MITRE ATT&CK describes Command and Control as the stage where adversaries communicate with systems under their control, often embedding commands and results inside normal protocol traffic. In practice, modern C2 also commonly relies on encryption, resilient infrastructure, and mechanisms to maintain communications if one path is blocked.
+### Document 142
+Question: How does the modern command and control (C2) work?
+Answer: Modern C2 works by having malware or another implanted component periodically contact attacker-controlled or attacker-abused infrastructure to receive instructions and send back status or results. MITRE notes that adversaries often use application-layer protocols, including web traffic and DNS, so communications blend into ordinary network activity rather than looking obviously malicious. This means modern C2 is less about one obvious “controller server” and more about hiding malicious coordination inside common digital communication patterns.
+### Document 143
+Question: What data does the command and control (C2) collect?
+Answer: A C2 channel commonly collects host identity details, system status, execution results, credential material, discovered network information, and data selected for exfiltration. MITRE specifically notes that adversaries may exfiltrate stolen data over an existing C2 channel by encoding it into the same communications path used for command traffic. In real incidents, the exact data depends on the operator’s objective, such as espionage, financial theft, lateral movement, or follow-on ransomware deployment.
+### Document 144
+Question: What are the data collection techniques of command and control (C2)?
+Answer: Command and control data collection techniques are the methods malware or an intruder uses to gather information from a compromised system and send it back through the C2 channel. These techniques commonly include collecting system information, user and host details, network configuration, process and service data, credentials, keystrokes, screenshots, files, and the results of commands executed on the infected device. In modern intrusions, the collected data is often packaged, encoded, or compressed and then transmitted through the same communication path used for command traffic so the attacker can centrally manage multiple compromised systems.
+### Document 145
+Question: How is the command and control (C2) bypassing security mechanisms?
+Answer: Command and control can bypass security mechanisms by making its communications look less suspicious and harder to distinguish from normal network activity. It often does this by blending into commonly used protocols or services, using encrypted traffic, relying on trusted or compromised systems, and spreading activity in a way that avoids drawing immediate attention. The main idea is that the C2 channel is designed to stay operational by reducing visibility and making malicious communications appear routine enough to avoid quick detection or blocking.
+### Document 146
+Question: How does the botnet work?
+Answer: A botnet works by infecting multiple internet-connected devices with malware that allows a remote operator to control them as a coordinated group. NIST defines a botnet as a network of compromised machines that criminals remotely manage, while CISA materials describe bot clients running malicious software under the direction of a botmaster or botherder. Once assembled, the botnet can be used for activities such as DDoS, spam, fraud, malware delivery, or broader criminal campaigns.
+### Document 147
+Question: What are the key components of botnet?
+Answer: The key components of a botnet are the bot malware, the infected devices or bots, the command-and-control mechanism, and the operator who issues instructions. CISA’s technical information paper and NIST’s glossary both describe this structure in terms of compromised clients, malicious code, and remote management by a botmaster. In modern botnets, the infrastructure may also include relays, peer-to-peer elements, and automation that help scale operations and improve resilience.
+### Document 148
+Question: How is the botnet bypassing security mechanisms?
+Answer: A botnet can bypass security mechanisms by making its traffic, behavior, or communications appear less suspicious and more similar to legitimate system or network activity. It may rely on distributed activity across many infected devices, encrypted or disguised communications, trusted services, or constantly changing infrastructure so blocking one part does not stop the whole botnet. The main idea is that a botnet stays active by reducing visibility, avoiding simple detection patterns, and making its malicious operations harder to isolate quickly.
+### Document 149
+Question: How does the modern botnet work?
+Answer: Modern botnets work at greater speed and scale by combining automated infection, flexible C2 models, and shared criminal infrastructure across large numbers of computers, servers, mobile devices, or IoT systems. Recent 2026 threat reporting describes the industrialization of botnets, where automation and shared resources allow operators to outpace traditional patching and response cycles. This means a modern botnet is not just a cluster of infected PCs, but a scalable attack platform that can support many different criminal objectives.
+### Document 150
+Question: What is the meaning of polymorphic code?
+Answer: Polymorphic code is code that changes some of its observable characteristics while preserving its underlying function. In malware, NIST describes polymorphic malware as changing certain characteristics of itself on each instance or infection, including non-functional code changes that make signature-based detection harder. The core idea is that the code “shape-shifts” enough to reduce simple pattern matching even though it is still performing the same malicious job.
+### Document 151
+Question: What is Windows?
+Answer: Windows is Microsoft’s operating system platform for personal computers and many enterprise devices. It provides the core software layer that lets applications run, manages hardware resources, and offers interfaces for files, settings, networking, and security. Microsoft’s current architecture documentation describes Windows as an operating system with both user-mode and kernel-mode components working together.
+### Document 152
+Question: What are the most used Windows versions?
+Answer: The most used desktop Windows versions today are Windows 11 and Windows 10. Statcounter’s worldwide desktop Windows version data for March 2026 shows Windows 11 at 67.14% market share and Windows 10 at 31.27%, with older versions far behind. Microsoft also notes that support for Windows 10 ended on October 14, 2025, even though it remains widely used.
+### Document 153
+Question: What are the key components of Windows?
+Answer: The key components of Windows are its user-mode components, kernel-mode components, drivers, and the supporting system services that connect software to hardware. Microsoft’s architecture overview says Windows includes both user-mode and kernel-mode components, while its mode overview explains that applications run in user mode and core operating system components function in kernel mode. In simple terms, the key components of Windows are the applications users interact with, the core operating system that manages the computer, and the drivers and services that connect everything together.
+### Document 154
+Question: What are the most vulnerable parts of Windows?
+Answer: The parts of Windows most often exposed to serious security issues are usually the kernel and kernel subsystems, drivers, shell-related components, document-handling components such as Office integrations, and internet-facing or high-privilege services. Recent examples from Microsoft and CISA include active exploitation involving the Windows Common Log File System kernel driver, Windows Shell, and Microsoft Office security-feature bypass vulnerabilities. Overall, the most vulnerable parts of Windows are usually the components that attackers target most often, especially those connected to system privileges, file processing, drivers, and features that interact directly with users.
+### Document 155
+Question: What is Windows registry?
+Answer: The Windows Registry is a central hierarchical database that stores configuration information for Windows, hardware, users, applications, and services. Microsoft describes it as a system-defined database in which applications and system components store and retrieve configuration data, and it also notes that the registry is critical for Windows operation. In practice, the registry is one of the main places Windows keeps settings that shape system and application behavior.
+### Document 156
+Question: What are the key components of Windows registry?
+Answer: The key components of the Windows Registry are hives, keys, subkeys, and values. Microsoft explains that the registry is structured like a tree, where each node is a key, keys can contain subkeys, and the data entries inside them are called values. It also defines a hive as a logical group of keys, subkeys, and values backed by supporting files and loaded when Windows starts or when a user signs in.
+### Document 157
+Question: What is system32 in Windows?
+Answer: System32 is a core Windows system directory, usually located at C:\Windows\System32. It contains many essential operating system files that Windows depends on to boot, run core functions, and support system tools and services. Microsoft’s registry documentation also notes that many important registry hive support files are stored under %SystemRoot%\System32\Config, which highlights how central the System32 path is to Windows itself.
+### Document 158
+Question: What are the key components of system32 in Windows?
+Answer: The key components of System32 are the operating system files stored there, including core executables, libraries, drivers, configuration-related files, and built-in administrative tools. Microsoft’s documentation specifically points to %SystemRoot%\System32\Config as the location for many registry hive support files, which shows that System32 contains core configuration data in addition to executable system content. In practical terms, System32 is a central storage area for Windows components that the operating system needs to function correctly.
+### Document 159
+Question: What is File Explorer in Windows?
+Answer: File Explorer is the built-in Windows file manager. Microsoft says it helps users find, open, organize, and manage files and folders on the PC and in the cloud. It is the main interface most users use to browse drives, folders, documents, and connected storage in Windows.
+### Document 160
+Question: What are the key components of File Explorer in Windows?
+Answer: The key components of File Explorer include the navigation pane, the main file and folder view, the address bar and navigation buttons, search, the command bar or ribbon, Quick access or Home, and the context menu. Microsoft’s support documentation specifically references the navigation pane, View controls, search from File Explorer Home, Quick access, the context menu, and commands such as Cut, Copy, Paste, Rename, Share, and Delete. In everyday use, these parts work together to let users browse locations, locate content, change views, and manage files efficiently.
+### Document 161
+Question: What is Linux?
+Answer: Linux is an open-source, Unix-like operating system platform built around the Linux kernel. The Linux kernel documentation describes the kernel as a widely used operating system component that runs on systems ranging from small devices to desktop PCs and supercomputers. In common use, “Linux” usually refers to a full operating system made by combining the Linux kernel with user-space tools, libraries, and distribution-specific software.
+### Document 162
+Question: What are the most used Linux distros?
+Answer: The most used Linux distributions vary by audience, but recent developer-survey data shows Ubuntu as the most widely used Linux operating system among respondents, followed by Debian, with Arch and Fedora also widely used. In Stack Overflow’s 2025 Developer Survey, Ubuntu was reported at 27.8% personal use and 27.7% professional use, Debian at 11.4% personal and 10.4% professional use, Arch at 9.7% personal use, and Fedora at 5.8% personal and 3.7% professional use. These figures reflect developer usage rather than the entire Linux market, but they are one of the clearest current public snapshots of distro popularity.
+### Document 163
+Question: What are the key components of Linux?
+Answer: The key components of Linux are the kernel, shell, system libraries, system utilities, and the supporting software that makes up a distribution. The kernel provides the core operating system functions, while utilities and libraries provide the tools and interfaces users and applications rely on. In simple terms, Linux is built from the kernel at the center plus the command environment, software-management tools, and system programs around it.
+### Document 164
+Question: What is Linux used for?
+Answer: Linux is used for servers, cloud systems, embedded devices, development workstations, networking equipment, and supercomputers. The kernel documentation says Linux runs on systems ranging from pocket-sized devices to desktop PCs and the largest supercomputers, which reflects its broad deployment range. In practice, Linux is valued for flexibility, stability, customization, and strong support for development and infrastructure workloads.
+### Document 165
+Question: What are the most vulnerable parts of Linux?
+Answer: The most vulnerable parts of Linux are usually the components that attackers target most often, especially the kernel, privileged services, network-facing software, package-managed applications, and misconfigured permissions or authentication paths. Because the kernel controls memory, processes, and hardware access, serious kernel flaws can have major impact, while exposed services and high-privilege software often create the most practical attack opportunities. Overall, Linux risk is usually driven less by one single folder or feature and more by the combination of privileged code, exposed services, and configuration weaknesses.
+### Document 166
+Question: What is Linux kernel?
+Answer: The Linux kernel is the core operating system component of Linux. The Linux kernel documentation describes it as a robust, efficient, and scalable operating system component used across many types of systems. It is responsible for essential low-level tasks such as hardware interaction, process management, memory management, and device support.
+### Document 167
+Question: What is a bootloader in Linux?
+Answer: A bootloader in Linux is the software that starts during boot and loads the Linux kernel so the operating system can begin running. Debian’s installation and system-initialization documentation treats boot loading as the stage that prepares the system to hand control to the kernel. In simple terms, the bootloader bridges the gap between firmware startup and the Linux operating system itself.
+### Document 168
+Question: What is a shell in Linux?
+Answer: A shell in Linux is a command-line interface that lets users interact with the operating system by running commands and scripts. Debian’s reference documentation uses shell-command examples throughout system administration guidance, reflecting the shell’s role as a primary interface for managing Linux systems. In practical use, the shell is both an interactive command environment and a scripting tool for automation.
+### Document 169
+Question: What is a package manager in Linux?
+Answer: A package manager in Linux is the system used to install, update, remove, and track software packages from configured repositories or package sources. Red Hat defines package management as the method of installing, updating, removing, and keeping track of software from specific repositories, and Debian identifies APT as the core of its package management system. In short, a package manager is the Linux toolset that keeps software organized and maintained across the system.
+### Document 170
+Question: What are the system utilities in Linux?
+Answer: System utilities in Linux are the built-in programs and command-line tools used to configure, monitor, maintain, and troubleshoot the operating system. Debian’s reference documentation describes many such tools in its administration and system-tips material, covering practical management tasks from the console. These utilities include everyday commands and administration tools that help users control files, processes, networking, storage, and system behavior.
+### Document 171
+Question: What is Android?
+Answer: Android is an open-source, Linux-based software stack created for a wide array of devices and form factors. Google’s Android platform documentation describes it as a complete software stack whose major platform components work together to support apps and device features. In common use, Android usually refers to the mobile operating system used on phones, tablets, TVs, cars, wearables, and other connected devices.
+### Document 172
+Question: What are the most used Android versions?
+Answer: The most used Android versions worldwide currently are Android 16, Android 15, and Android 13, based on recent March 2026 market-share data. Statcounter reports Android 16 at 21.61%, Android 15 at 20.16%, and Android 13 at 14.45% worldwide, with Android 14 close behind at 13.8%. Google’s current platform pages also show Android 16 as the current stable generation and Android 17 as the current beta line, which fits the present rollout timeline.
+### Document 173
+Question: What are the key components of Android?
+Answer: The key components of Android include the Linux kernel, hardware abstraction layer, native libraries, Android Runtime, application framework, and system apps. Google’s platform architecture documentation presents these as the major layers of the Android platform, with each layer providing services to the layers above it. In app development, Android also relies on four core app component types: activities, services, broadcast receivers, and content providers.
+### Document 174
+Question: What is Android used for?
+Answer: Android is used to run applications and services on many device types, including phones, tablets, TVs, cars, wearables, and foldables. Google’s Android platform documentation states that Android is built for a wide array of devices and form factors, and current Android 16 documentation highlights productivity, media, camera, tablet, and foldable use cases. In practical terms, Android is used both as a consumer operating system and as a software platform for developers and device manufacturers.
+### Document 175
+Question: What are the most vulnerable parts of Android?
+Answer: The most vulnerable parts of Android are usually the components most often targeted by attackers or affected in security bulletins, especially the system, framework, kernel, privileged apps, and data-sharing surfaces between apps. Google’s Android Security Bulletins regularly include vulnerabilities in framework and system components, and Android’s security guidance specifically warns that app data storage and content providers are common security concern areas. Overall, the most exposed parts of Android are usually the components tied to high privilege, inter-app communication, and sensitive data handling.
+### Document 176
+Question: What are the activities in Android?
+Answer: An activity in Android is an app component that provides a screen with which the user can interact. Google’s app fundamentals documentation identifies activities as one of the four core Android app component types and explains that each one serves as an entry point for user interaction. In simple terms, an activity usually represents a single focused screen or user task inside an Android app.
+### Document 177
+Question: What are the services in Android?
+Answer: A service in Android is an app component that can perform long-running operations in the background without providing a user interface. Google’s app fundamentals documentation lists services as one of the four main Android app components and distinguishes them from activities by their background role. In practice, services are used for tasks such as playback, syncing, or other operations that should continue even when the user is not actively looking at the app screen.
+### Document 178
+Question: What are the broadcast receivers in Android?
+Answer: A broadcast receiver in Android is an app component that responds to broadcast messages from the Android system or from other apps. Google explains that broadcasts follow a publish-subscribe style pattern and are commonly used for events such as boot completion, charging changes, or app-defined notifications. In simple terms, broadcast receivers let apps react when something important happens elsewhere in the system or ecosystem.
+### Document 179
+Question: What are the content providers in Android?
+Answer: A content provider in Android is an app component that manages structured access to data and can share that data with other apps. Google’s content provider documentation says content providers encapsulate data, define mechanisms for data security, and serve as the standard interface connecting data in one process with code in another process. In practice, content providers are used when an app needs to expose or control shared access to stored information in a consistent way.
+### Document 180
+Question: What is Android Runtime (ART)?
+Answer: Android Runtime, or ART, is the managed runtime used by Android apps and system services. Google’s platform architecture documentation lists ART as a major part of the Android software stack and explains that it runs apps together with core libraries and runtime support. In simple terms, ART is the part of Android that executes app code and helps manage features such as compilation, memory use, and runtime behavior.
+### Document 181
+Question: What is the meaning of authentication?
+Answer: Authentication is the process of verifying that a user, device, or process is really who or what it claims to be. NIST defines it as verifying the identity of a user, process, or device, often as a prerequisite to allowing access to system resources. In practice, authentication answers the question, “Who are you.”.
+### Document 182
+Question: What is the meaning of authorization?
+Answer: Authorization is the process of deciding what an authenticated user, service, or device is allowed to access or do. NIST describes authorization as a right or permission granted to a system entity to access a system resource, while Microsoft describes it as granting an authenticated party permission to do something. In practice, authorization answers the question, “What are you allowed to do.”.
+### Document 183
+Question: What is the meaning of reverse engineering?
+Answer: Reverse engineering in cybersecurity means analyzing software, binaries, or malicious code to understand how they work internally. NIST describes malware code analysis as the act of reverse-engineering a malicious program to understand the code that implements its behavior, often using tools such as disassemblers, debuggers, and decompilers. More broadly, reverse engineering is used to study software logic, uncover vulnerabilities, verify functionality, or understand malicious behavior.
+### Document 184
+Question: What is the meaning of defense evasion?
+Answer: Defense evasion is the set of techniques adversaries use to avoid detection or bypass security controls during an intrusion. MITRE ATT&CK defines Defense Evasion as techniques adversaries use to avoid detection throughout their compromise, including disabling security tools, obfuscating data and scripts, and abusing trusted processes. In practical terms, defense evasion is about staying hidden long enough to keep operating inside the target environment.
+### Document 185
+Question: What is the meaning of detection and monitoring?
+Answer: Detection and monitoring in cybersecurity mean watching systems, networks, accounts, and events in order to identify suspicious or malicious activity. CISA’s logging and threat-detection guidance describes centralized logging and monitoring as a way to identify users, observe events, and support proactive threat detection, while Cybersecurity Framework monitoring guidance focuses on monitoring systems and assets to detect potential cybersecurity events. In practice, detection and monitoring are the visibility functions that help defenders notice incidents, investigate them, and respond in time.
+### Document 186
+Question: What is the meaning of cryptography?
+Answer: Cryptography is the science of protecting and verifying information using mathematical methods, protocols, and algorithms. NIST defines it as the science of information hiding and verification, including methods to prevent unauthorized access and support goals such as confidentiality, integrity, authentication, and source authentication. In simple terms, cryptography is what makes secure encryption, digital signatures, and many other security mechanisms possible.
+### Document 187
+Question: What is the meaning of containers?
+Answer: Containers are a method for packaging and securely running an application together with what it needs inside an application virtualization environment. NIST defines a container as a method for packaging and securely running an application within an application virtualization environment, and Docker describes a container as a standard unit of software that packages code and dependencies so it runs reliably across environments. In practice, containers make applications more portable, consistent, and easier to deploy.
+### Document 188
+Question: What is the meaning of virtualization?
+Answer: Virtualization is a method of abstracting or emulating computing hardware so software can run in virtual rather than directly physical environments. NIST defines it as a methodology for emulation or abstraction of hardware resources that enables complete execution stacks, including software applications, to run on it. In practical terms, virtualization allows one physical machine to host multiple isolated operating systems or workloads more efficiently.
+### Document 189
+Question: What is Docker?
+Answer: Docker is a platform for developing, shipping, and running applications using containers. Docker’s official documentation describes it as an open platform that lets developers separate applications from infrastructure so software can be delivered more quickly and consistently. In practice, Docker is widely used to build, package, test, and run containerized applications across development and production environments.
+### Document 190
+Question: What is Kubernetes?
+Answer: Kubernetes is an open-source platform for managing containerized workloads and services. Its official documentation describes it as a portable, extensible platform for automating the deployment, scaling, and management of containerized applications. In simple terms, Kubernetes helps organizations run large numbers of containers reliably by coordinating how they are deployed, updated, discovered, and kept running.
+### Document 191
+Question: How are hackers bypassing 2FA?
+Answer: Hackers most commonly bypass two-factor authentication by phishing the login in real time, stealing the authenticated session after the user completes 2FA, or abusing weaker second factors such as SMS, push prompts, or voice-based recovery flows. Recent Microsoft and CISA-linked reporting highlights adversary-in-the-middle phishing, push-bombing, SIM-swap abuse, and device-code style tricks as common ways attackers get around traditional 2FA without “breaking” the factor itself. In practice, the weakness is often not the idea of 2FA, but the fact that some forms of 2FA can still be socially engineered or bypassed after authentication succeeds.
+### Document 192
+Question: How are hackers bypassing MFA?
+Answer: Hackers bypass MFA in many of the same ways because 2FA is just a subset of MFA, especially through real-time phishing proxies, token theft, and abuse of trusted login workflows. Microsoft notes that adversary-in-the-middle attacks can capture both credentials and session information, while newer phishing campaigns also abuse device-code and help-desk style social engineering to obtain authenticated access. The current trend is that attackers increasingly target the authentication flow around MFA rather than trying to defeat cryptography directly.
+### Document 193
+Question: How are hackers stealing session cookies?
+Answer: Hackers steal session cookies by compromising the browser or device, intercepting traffic in unsafe conditions, or using phishing pages and malicious scripts that capture session tokens after login. OWASP explains that session hijacking happens when an attacker compromises a valid session token, including through client-side attacks, man-in-the-middle interception, predictable session identifiers, or exposed cookies. Google’s recent device-bound session work also reflects the current threat reality that stolen cookies are valuable because they can let attackers reuse an authenticated session without re-entering a password or MFA code.
+### Document 194
+Question: What are the most common social engineering tactics?
+Answer: The most common social engineering tactics include phishing, vishing, smishing, pretexting, impersonation, baiting, and urgent fake requests that pressure the target into acting quickly. CISA and the FBI both describe these attacks as manipulations of trust, fear, urgency, or authority to get someone to click, disclose information, send money, or grant access. Recent FBI warnings also show that text-message impersonation, voice scams, and official-looking outreach remain common and effective tactics in current campaigns.
+### Document 195
+Question: What are the key components of social engineering?
+Answer: The key components of social engineering are a believable pretext, a trusted or urgent communication channel, psychological manipulation, and a desired victim action such as revealing information, clicking a link, or approving access. CISA describes social engineering as using human interaction and social skills to obtain or compromise information, while FTC scam guidance shows that pressure, unusual payment demands, and surprise contact are common ingredients. In simple terms, social engineering works by combining credibility, emotion, and timing to make the victim act against their own interests.
+### Document 196
+Question: What are the most common phishing tactics?
+Answer: The most common phishing tactics include fake login pages, malicious links, spoofed domains, attachment-based lures, SMS phishing, voice phishing, and impersonation of trusted organizations or officials. The FBI specifically highlights phishing, vishing, smishing, and pharming as recurring variants, while CISA defines phishing as a form of social engineering that lures victims to malicious sites or tricks them into providing information. Current campaigns also increasingly use multi-channel delivery, with email, text, and voice messages reinforcing the same deception.
+### Document 197
+Question: What are the key components of phishing?
+Answer: The key components of phishing are impersonation, a lure, a delivery channel, and a target action such as entering credentials, opening an attachment, or sending money. CISA’s phishing guidance describes phishing as a social-engineering attack that lures victims to malicious sites or deceives them into providing sensitive information, while the FBI emphasizes spoofed communications and fake websites designed to steal data. In practice, phishing depends on making the request look familiar enough that the victim completes the attacker’s intended step.
+### Document 198
+Question: What is the meaning of scamming?
+Answer: Scamming is the use of deception to trick a person or organization into giving up money, personal data, account access, or some other valuable asset. FTC and FBI guidance both frame scams as manipulative schemes that rely on false claims, impersonation, urgency, or emotional pressure rather than honest transactions. In simple terms, a scam is fraud carried out through lies designed to make the victim cooperate willingly.
+### Document 199
+Question: What are the most common scamming tactics?
+Answer: The most common scamming tactics include impersonation, urgency, secrecy, pressure to pay quickly, requests for unusual payment methods, romance and investment fraud, tech-support fraud, and business email compromise. FTC scam alerts say common warning signs include unexpected contact, demands to hurry, and instructions to pay by gift card, wire transfer, cryptocurrency, cash, or payment app, while the FBI’s 2025 IC3 report says investment fraud, business email compromise, and tech-support scams remain leading loss categories. Current scam activity also increasingly uses text messages, AI-assisted impersonation, and cross-channel communication to make the deception more believable.
+### Document 200
+Question: What are the key components of scamming?
+Answer: The key components of scamming are a false story, a convincing identity or scenario, emotional pressure, a requested action, and a payoff path that benefits the scammer. FTC guidance shows that many scams share the same structure: surprise contact, pressure to act fast, restrictions on how to pay, and instructions that reduce the chance the victim will verify the claim. In practical terms, scamming succeeds when deception, urgency, and payment or data collection are combined into one believable interaction.
+### Document 201
+Question: What is cloud?
+Answer: Cloud, or cloud computing, is a model for delivering computing resources such as servers, storage, applications, and services over a network on demand. NIST defines cloud computing as convenient, on-demand network access to a shared pool of configurable resources that can be rapidly provisioned and released with minimal management effort. In simple terms, the cloud lets users consume IT resources as a service instead of owning all the underlying infrastructure themselves.
+### Document 202
+Question: What is the cloud used for?
+Answer: The cloud is used for running applications, storing data, hosting websites, analytics, databases, backup, disaster recovery, AI workloads, and software development. AWS describes cloud computing as on-demand delivery of IT resources such as compute power, storage, databases, and applications over the internet with pay-as-you-go pricing. In practice, organizations use the cloud to scale faster, reduce upfront infrastructure costs, and deploy services globally.
+### Document 203
+Question: What are the most used cloud services?
+Answer: The most widely used cloud infrastructure platforms today are Amazon Web Services, Microsoft Azure, and Google Cloud. Recent market-share reporting for Q4 2025 shows those three providers still holding the clear global lead in cloud infrastructure services, with AWS first, Azure second, and Google Cloud third. These are the dominant public-cloud platforms used for compute, storage, databases, networking, and many managed cloud services.
+### Document 204
+Question: What are the key components of cloud?
+Answer: The key components of cloud include shared computing resources, networking, storage, applications, service delivery models, and deployment models. NIST says the cloud model is composed of five essential characteristics, three service models, and four deployment models. In simple terms, the cloud is built from pooled infrastructure plus the service layers and access models used to deliver it.
+### Document 205
+Question: What are the most vulnerable parts of cloud?
+Answer: The most vulnerable parts of cloud environments are usually identity and access management, exposed storage, misconfigured services, internet-facing applications, APIs, and weak security settings. OWASP continues to treat security misconfiguration as a major web-application risk, and cloud security guidance consistently shows that poor configuration and overexposed access paths create major attack opportunities. Overall, cloud risk is usually highest where high privilege, public exposure, and misconfiguration meet.
+### Document 206
+Question: What is a remote server?
+Answer: A remote server is a server system that is accessed over a network rather than used directly at the physical machine. In cloud environments, remote servers provide computing resources and services from provider-managed infrastructure that users can access through the internet or private network connections. In simple terms, a remote server is a computer somewhere else that runs workloads or stores data for you.
+### Document 207
+Question: What is cloud storage?
+Answer: Cloud storage is a service that stores digital data on provider-managed infrastructure and makes it accessible over a network. AWS explains cloud computing as including on-demand storage delivered through a cloud services platform rather than requiring organizations to maintain all storage hardware themselves. In practice, cloud storage is used for files, backups, archives, application data, and large-scale object storage.
+### Document 208
+Question: What is a streaming service?
+Answer: A streaming service is an online service that delivers audio, video, or other media continuously over the internet so users can play it without downloading the entire file first. Streaming services rely on networked applications, storage, and server infrastructure to deliver content on demand to many users. In practical terms, they are web-connected platforms for consuming media in real time or near real time.
+### Document 209
+Question: What is web application?
+Answer: A web application is a software application that runs on a web server and is accessed through a web browser. It allows users to interact with features, data, and services over a network without needing to install the application in the same way as traditional desktop software. In simple terms, a web application is an interactive program delivered through the web that users can open and use from a browser.
+### Document 210
+Question: What is Amazon Web Services (AWS)?
+Answer: Amazon Web Services, or AWS, is Amazon’s cloud computing platform. AWS describes itself as a broad and widely adopted cloud platform that provides services such as compute, storage, databases, networking, analytics, and AI on global infrastructure. In simple terms, AWS is a major public-cloud provider that organizations use to build, host, and scale digital systems and applications.
