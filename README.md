@@ -1,4 +1,4 @@
-# Open Data Bank
+## Open Data Bank
 
-Goals:
+### Goals
 - First 100 added.
