@@ -12,4 +12,4 @@
 - Hacking
 - Linux
 
-**Note:** Some topics can be very sensitive and include illegal activities.
+**Note:** Some topics can be very sensitive and include illegal activities ⚠️
