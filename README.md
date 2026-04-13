@@ -10,6 +10,7 @@
 - Windows
 - Android
 - Hacking
+- Cloud
 - Linux
 
 **Note:** Some topics can be very sensitive and include illegal activities ⚠️
