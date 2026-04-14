@@ -1,6 +1,6 @@
 ## Open Data Bank
 
-Publicly available data that can be used for fine-tuning and RAG.
+This data can be used for fine-tuning and RAG.
 
 ### Goals
 - First 100 added
