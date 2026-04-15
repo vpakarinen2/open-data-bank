@@ -3,42 +3,42 @@
         "instruction": "What is malware?",
         "input": "",
         "output": "Malware is malicious software or firmware created to perform unauthorized actions that harm a system’s confidentiality, integrity, or availability. It is an umbrella term that includes threats such as ransomware, worms, Trojans, spyware, and rootkits. Attackers use malware to steal data, disrupt operations, spy on users, extort victims, or gain unauthorized access to devices and networks."
-    },    
+    },
     {
         "instruction": "What is ransomware?",
         "input": "",
         "output": "Ransomware is a type of malware that locks, encrypts, or otherwise denies access to data or systems until a ransom is paid. Modern ransomware attacks often combine encryption with data theft so attackers can also threaten to leak stolen information. Even if a victim pays, recovery is not guaranteed, because attackers may not provide a working decryption key or may attack again later."
-    },    
+    },
     {
         "instruction": "What is backdoor?",
         "input": "",
         "output": "A backdoor is an undocumented or unauthorized method of gaining access to a computer system while bypassing normal authentication or security controls. Attackers use backdoors to maintain persistent access after an intrusion or to re-enter a compromised environment later. A backdoor can exist in software, firmware, services, or malicious code, and it creates a serious security risk because it can be difficult to detect."
-    },    
+    },
     {
         "instruction": "What is trojan?",
         "input": "",
         "output": "A Trojan is malware that disguises itself as legitimate or harmless software in order to trick a user into installing or running it. Unlike worms, Trojans do not normally self-replicate on their own, but instead rely on deception, phishing, or malicious downloads for delivery. Once executed, a Trojan can steal data, install additional malware, open backdoors, or give an attacker remote control of the device."
-    },    
+    },
     {
         "instruction": "What is spyware?",
         "input": "",
         "output": "Spyware is software that is secretly installed on a system to gather information about individuals or organizations without their knowledge. It may capture browsing activity, credentials, keystrokes, account details, or other sensitive data and send that information to an attacker. Spyware is dangerous because it focuses on covert surveillance rather than obvious disruption, which means victims may not realize they are being monitored."
-    },    
+    },
     {
         "instruction": "What is worm?",
         "input": "",
         "output": "A worm is self-replicating malware that spreads across networks or systems without requiring a host program or user action to reproduce. It often propagates by exploiting software vulnerabilities, misconfigurations, shared drives, or other exposed pathways. Worms can consume bandwidth, disrupt operations, deliver additional malicious payloads, and rapidly expand the scale of an attack."
-    },    
+    },
     {
         "instruction": "What is rootkit?",
         "input": "",
         "output": "A rootkit is malware designed to provide an attacker with privileged or administrative access while hiding its presence and activity on the system. It can modify or intercept normal operating system functions so security tools and users receive misleading information about what is running. Rootkits may be installed in applications, kernels, hypervisors, or firmware, which makes them especially difficult to detect and remove."
-    },    
+    },
     {
         "instruction": "What is botnet?",
         "input": "",
         "output": "A botnet is a network of internet-connected devices that have been infected with malware and are remotely controlled as a group by an attacker. These compromised devices, often called bots or zombies, can be used for distributed denial-of-service attacks, spam campaigns, credential attacks, proxying, or malware delivery. Botnets are especially dangerous because they turn many ordinary devices, including IoT systems, into coordinated attack infrastructure."
-    },  
+    },
     {
         "instruction": "What is fileless malware?",
         "input": "",
@@ -48,47 +48,47 @@
         "instruction": "What are the latest malware trends?",
         "input": "",
         "output": "The latest malware trends are being driven by infostealers, malware-as-a-service ecosystems, and credential theft that is later resold to other criminals, with Microsoft reporting Lumma Stealer as the most prevalent infostealer observed between October 2024 and October 2025. Attackers are also leaning harder on fileless and living-off-the-land techniques, using legitimate system tools and social-engineering methods such as fake support interactions and “ClickFix” style prompts to execute malicious commands while evading detection. Recent reporting also shows more malware delivery through fake software installers, malvertising, and SEO-poisoned search results that redirect users looking for legitimate enterprise software to malicious downloads."
-    },   
+    },
     {
         "instruction": "What are the latest ransomware trends?",
         "input": "",
         "output": "The latest ransomware trends show a continued move toward double extortion and multifaceted extortion, where attackers steal data before encryption and then pressure victims with both operational disruption and leak threats. Current reporting also shows a shift in initial access away from classic phishing alone and toward vulnerability exploitation, credential abuse, and help-desk or vishing-led social engineering, especially against internet-facing systems and identity workflows. Verizon’s 2025 DBIR says ransomware is present in 44% of breaches overall and in 75% of system-intrusion breaches, underscoring how central ransomware remains across industries."
-    },   
+    },
     {
         "instruction": "How is malware spreading?",
         "input": "",
         "output": "Malware is spreading through spam and phishing emails, malicious attachments and links, compromised or malicious websites, deceptive ads, pirated or bundled software, and infected removable media such as USB drives. Microsoft also warns that malware increasingly arrives through hacked webpages that exploit browser or software vulnerabilities, while some unwanted or fake programs silently install additional malicious components during setup. In current campaigns, attackers are also using fake browser, VPN, and software installers distributed through search manipulation, malvertising, and social-engineering lures to make malicious downloads look legitimate."
-    },  
+    },
     {
         "instruction": "How is ransomware spreading?",
         "input": "",
         "output": "Ransomware spreads through many of the same channels as other malware, including phishing emails, malicious links, compromised websites, exploit kits, and trojanized downloads. In enterprise intrusions, however, the more important pattern today is that ransomware often arrives after attackers have already gained access through exploited perimeter vulnerabilities, stolen credentials, or earlier malware such as QakBot, Bumblebee, or Emotet. CISA and Verizon both indicate that exploitation of vulnerabilities in internet-facing devices has become a leading ransomware access path, overtaking credential abuse in many ransomware breach patterns."
-    },   
+    },
     {
         "instruction": "What are the malware symptoms?",
         "input": "",
         "output": "Common malware symptoms include unusually slow performance, frequent crashes or freezes, unexpected pop-ups, browser redirects, unfamiliar programs or processes, and unexplained changes to settings. CISA notes that spyware infections can also show up as new toolbars, changed homepages or search pages, excessive advertising, and generally unstable or degraded system behavior. Another serious sign is when security tools stop working properly or security-related sites become inaccessible, because many malware families try to disable defenses or block remediation."
-    },   
+    },
     {
         "instruction": "What are the ransomware symptoms?",
         "input": "",
         "output": "The clearest ransomware symptoms are suddenly inaccessible files or systems, ransom notes, file encryption, locked screens, and messages demanding payment for decryption or restoration. The FBI notes that victims often do not realize they have ransomware until they can no longer access data or see pop-ups claiming that files or systems have been locked or encrypted. CISA also warns that a ransomware event may indicate a broader pre-existing compromise, so the visible encryption is often only the final stage of a larger intrusion."
-    },  
+    },
     {
         "instruction": "What are the famous malware cases?",
         "input": "",
         "output": "Famous malware cases include Stuxnet, which became known for sabotaging Iranian nuclear centrifuges, Emotet, which became one of the most pervasive malware delivery platforms and botnets, and TrickBot, which evolved from a banking Trojan into a major malware distribution and post-exploitation platform. NotPetya is also widely remembered because it masqueraded as ransomware but functioned as highly destructive wiper malware that caused massive global business disruption. These cases are famous because they showed that malware can do far more than steal data, including enabling espionage, large-scale criminal operations, and destructive attacks with geopolitical impact."
-    },   
+    },
     {
         "instruction": "What are the famous ransomware cases?",
         "input": "",
         "output": "Famous ransomware cases include WannaCry in 2017, the Colonial Pipeline attack in 2021, and the Change Healthcare attack in 2024 because each caused widespread real-world disruption beyond a single company. WannaCry became globally notorious for crippling organizations such as the UK NHS, Colonial Pipeline showed how ransomware can disrupt critical infrastructure, and Change Healthcare demonstrated how a single attack can ripple across healthcare billing, pharmacy, and care operations nationwide. Other highly publicized cases tied to modern extortion operations include MGM Resorts, Caesars, and campaigns by groups such as LockBit, ALPHV/BlackCat, Akira, and Medusa."
-    },   
+    },
     {
         "instruction": "What are the initial access methods for malware?",
         "input": "",
         "output": "The main initial access methods for malware are phishing emails, malicious attachments, compromised websites, drive-by downloads, malvertising, trojanized software installers, removable media, and exploitation of unpatched vulnerabilities. Current reporting also highlights credential theft and social engineering as major access enablers, especially when attackers use fake updates, fake support prompts, or search-engine manipulation to trick users into launching malware themselves. In short, malware usually gets in through a mix of human deception, software weakness, and unsafe software acquisition rather than through one single technique."
-    },   
+    },
     {
         "instruction": "What are the initial access methods for ransomware?",
         "input": "",
@@ -98,47 +98,47 @@
         "instruction": "What is malware's attack life cycle?",
         "input": "",
         "output": "Malware’s attack life cycle usually begins with initial access, such as phishing, malicious downloads, compromised websites, or exploitation of exposed vulnerabilities, followed by execution on the victim system. It then commonly moves into persistence, privilege escalation, defense evasion, credential theft, discovery, and lateral movement, depending on the malware family and attacker goals. The final stages typically involve payload actions such as data theft, surveillance, disruption, botnet enrollment, or delivery of additional malware, all of which can damage confidentiality, integrity, or availability."
-    },   
+    },
     {
         "instruction": "What is ransomware's attack life cycle?",
         "input": "",
         "output": "Ransomware’s attack life cycle usually starts with initial access through phishing, stolen credentials, remote access abuse, or exploitation of internet-facing vulnerabilities, after which the attacker establishes persistence and expands access. In modern intrusions, operators often spend time on discovery, privilege escalation, credential harvesting, lateral movement, backup impairment, and data exfiltration before launching the final payload. The attack typically ends with encryption, ransom notes, and extortion, often combined with leak-site pressure if the victim refuses to pay."
-    },   
+    },
     {
         "instruction": "What are the targets of malware?",
         "input": "",
         "output": "Malware targets a wide range of victims, including individual users, businesses, governments, healthcare organizations, educational institutions, cloud workloads, mobile devices, and industrial systems. The immediate targets may be endpoints, servers, user accounts, browsers, wallets, email accounts, or removable media, depending on whether the attacker wants money, data, access, or disruption. In practice, malware often targets whatever assets can provide the greatest operational, financial, or intelligence value once compromised."
-    },  
+    },
     {
         "instruction": "What are the targets of ransomware?",
         "input": "",
         "output": "Ransomware primarily targets organizations that are likely to pay or suffer severe disruption, including hospitals, critical infrastructure, local governments, schools, manufacturers, and large enterprises. Recent CISA and Microsoft reporting shows that sectors with sensitive data, high uptime requirements, and complex IT environments remain especially attractive to RaaS affiliates. Although individuals can still be targeted, today’s major ransomware operations are largely focused on high-impact enterprise and public-sector victims."
-    },   
+    },
     {
         "instruction": "What are the common signs of malware infection?",
         "input": "",
         "output": "Common signs of malware infection include slow performance, crashes, unusual pop-ups, browser redirects, unexplained configuration changes, unknown programs, and abnormal network activity. Users may also notice disabled security software, blocked access to security websites, suspicious logins, or files and processes appearing that they did not create. These symptoms matter because malware often tries to persist quietly while stealing data, evading detection, or preparing additional malicious actions."
-    },   
+    },
     {
         "instruction": "What are the common signs of ransomware infection?",
         "input": "",
         "output": "Common signs of ransomware infection include suddenly inaccessible files, renamed or encrypted data, ransom notes, locked screens, and explicit payment demands. In enterprise environments, additional warning signs can include mass file modifications, disabled backups, sudden administrative changes, suspicious lateral movement, and evidence of data exfiltration before encryption. Because many modern ransomware groups steal data first, victims may experience signs of broader compromise before the encryption phase becomes obvious."
-    },  
+    },
     {
         "instruction": "What are the key components of Ransomware-as-a-Service (RaaS)?",
         "input": "",
         "output": "The key components of RaaS usually include ransomware developers, affiliate operators, payload builders, command-and-control or management panels, victim communication and negotiation channels, leak sites, and revenue-sharing arrangements. Microsoft’s recent reporting also highlights the growing role of semi-autonomous affiliate networks, which let specialized actors divide work across access, deployment, extortion, and laundering. In practice, RaaS works like a criminal service platform that lowers the barrier to entry by packaging ransomware operations into reusable infrastructure and business processes."
-    },   
+    },
     {
         "instruction": "What are the key components of Malware-as-a-Service (MaaS)?",
         "input": "",
         "output": "The key components of MaaS generally include malware developers, subscription or rental access, payload delivery infrastructure, command-and-control servers, administration panels, update mechanisms, customer support, and sometimes bundled distribution services. Microsoft specifically describes Lumma as a MaaS offering in which the operator maintains the malware and C2 infrastructure while customers use the service to steal data or install other malware. More broadly, Cybercrime-as-a-Service reporting shows that modern MaaS thrives by outsourcing technical complexity so less-skilled criminals can buy access to ready-made tools and infrastructure."
-    },   
+    },
     {
         "instruction": "What is the impact of malware?",
         "input": "",
         "output": "The impact of malware includes data theft, fraud, espionage, business interruption, device instability, service disruption, financial loss, and long-term security exposure. NIST defines malware in terms of its adverse effect on confidentiality, integrity, or availability, which captures the full range of harm from covert spying to destructive disruption. At scale, malware can also damage reputation, trigger regulatory consequences, and create follow-on risk by opening the door to additional attacks."
-    },   
+    },
     {
         "instruction": "What is the impact of ransomware?",
         "input": "",
@@ -148,47 +148,47 @@
         "instruction": "What is Advanced Persistent Threat (APT)?",
         "input": "",
         "output": "An Advanced Persistent Threat (APT) is an adversary with significant resources and expertise that pursues objectives over an extended period, adapts to defensive measures, and works to maintain access long enough to achieve its goals. In practice, APTs are commonly associated with state-sponsored or highly capable groups that use multiple attack vectors, including cyber, physical, and deception-based methods. The term can describe both the threat actor itself and the style of long-term, stealthy, goal-driven intrusion activity it conducts."
-    },   
+    },
     {
         "instruction": "What is red teaming?",
         "input": "",
         "output": "Red teaming is a security assessment activity in which skilled operators simulate real-world adversary behavior to test an organization’s detection, response, and resilience under realistic conditions. In current cyber practice, red teams do more than just find vulnerabilities, because they mimic attacker tradecraft, maintain access, evade defenses, and pursue objectives that resemble those of real threat actors. CISA describes its red team operations as long-term simulations of nation-state-style cyber operations designed to reveal weaknesses in both technology and defensive processes."
-    },   
+    },
     {
         "instruction": "What is command and control (C2)?",
         "input": "",
         "output": "Command and control (C2) is the mechanism adversaries use to communicate with compromised systems and direct them after initial compromise. In MITRE ATT&CK, Command and Control is a formal tactic that covers the ways attackers send instructions, move data, and manage infected hosts inside a victim environment. Attackers often try to disguise C2 traffic as normal network activity so it blends in and avoids detection by defenders."
-    },  
+    },
     {
         "instruction": "What is living off the land (LOTL)?",
         "input": "",
         "output": "Living off the land (LOTL) refers to an intrusion approach in which attackers abuse legitimate built-in tools, trusted applications, and normal administrative functions that already exist in the environment. This makes malicious activity harder to spot because the attacker appears to be using ordinary system behavior rather than obvious malware or custom tools. Recent CISA guidance highlights LOTL as a major technique for compromise, persistence, and evasion, especially in advanced intrusions and state-sponsored operations."
-    },   
+    },
     {
         "instruction": "What is threat actor?",
         "input": "",
         "output": "A threat actor is any individual, group, or organization that carries out, attempts, or supports malicious cyber activity against a target. Threat actors can include cybercriminals, state-sponsored groups, insiders, hacktivists, brokers, and other adversaries with different motives, skills, and resources. In threat intelligence and defense work, identifying the threat actor helps analysts understand likely objectives, capabilities, targets, and behaviors."
-    },   
+    },
     {
         "instruction": "What is operational security (OPSEC)?",
         "input": "",
         "output": "Operational security, or OPSEC, is the process of identifying and protecting sensitive information and observable activities that could reveal intentions, capabilities, weaknesses, or plans to an adversary. In cybersecurity, OPSEC supports the secure planning and execution of operations by reducing the amount of useful information that attackers can collect and exploit. CISA continues to treat OPSEC as an important discipline for protecting missions, systems, and operational details, including in control-system and remote-work contexts."
-    },  
+    },
     {
         "instruction": "What are Tactics, Techniques, and Procedures (TTPs)?",
         "input": "",
         "output": "Tactics, Techniques, and Procedures (TTPs) describe how adversaries operate, with tactics representing the attacker’s objective, techniques representing how that objective is achieved, and procedures reflecting the specific implementation or tradecraft used in practice. In MITRE ATT&CK, tactics and techniques are the core structure used to organize adversary behavior across the attack lifecycle. TTPs are important because they help defenders move beyond simple indicators of compromise and focus on repeatable attacker behavior that is more durable and actionable."
-    },   
+    },
     {
         "instruction": "What is MITRE ATT&CK?",
         "input": "",
         "output": "MITRE ATT&CK is a globally accessible knowledge base of adversary tactics and techniques built from real-world observations of cyber intrusions. It is widely used as a common framework for threat modeling, detection engineering, adversary emulation, threat hunting, assessments, and communication across security teams and vendors. ATT&CK currently covers multiple domains, including Enterprise and Mobile, and serves as a practical taxonomy for describing adversary behavior across the intrusion lifecycle."
-    },   
+    },
     {
         "instruction": "What is evasion?",
         "input": "",
         "output": "Evasion is the set of actions attackers use to avoid being detected, blocked, analyzed, or attributed during an intrusion. In practice, evasion can include disguising command-and-control traffic, abusing trusted tools, hiding payloads in memory, altering logs, disabling security controls, or blending malicious actions into normal system behavior. Modern advisories from CISA repeatedly show that advanced actors use LOTL techniques, allowlisted applications, and stealthy tradecraft specifically to reduce visibility and complicate response."
-    },   
+    },
     {
         "instruction": "What is adversary emulation?",
         "input": "",
@@ -198,47 +198,47 @@
         "instruction": "What are the red team objectives?",
         "input": "",
         "output": "Red team objectives are to realistically emulate adversary behavior, test whether security controls and defenders actually detect and respond, and show the operational impact of a successful intrusion in a controlled way. NIST defines a red team as an authorized group that emulates a potential adversary to improve enterprise cybersecurity by demonstrating both the effects of successful attacks and what works for defenders in an operational environment. In current practice, this means validating people, process, and technology across the full attack path rather than merely proving that a vulnerability exists."
-    },   
+    },
     {
         "instruction": "How to scope a red team engagement?",
         "input": "",
         "output": "A red team engagement should be scoped by clearly defining the business objectives, target environment, allowed attack paths, success criteria, rules of engagement, time window, safety constraints, escalation procedures, and deconfliction contacts. Good scoping also identifies what is out of scope, what systems are too sensitive to test aggressively, and whether the exercise is threat-specific, goal-based, or focused on a particular risk such as ransomware or phishing. NIST’s current risk guidance notes that red-teaming can be open-ended or aimed at specific risks, which makes precise scope-setting essential before any emulation begins."
-    },   
+    },
     {
         "instruction": "How to plan an emulation scenario in red teaming?",
         "input": "",
         "output": "An emulation scenario is planned by choosing a realistic adversary or intrusion pattern, mapping its behaviors to MITRE ATT&CK, selecting the tactics and techniques to reproduce, and defining the end-state objectives the red team is trying to achieve. MITRE’s adversary emulation resources emphasize building the scenario from public threat reporting so the exercise reflects real tools, methods, tradecraft, and attack lifecycle stages instead of generic penetration testing steps. A solid plan also sequences actions across phases such as initial compromise, execution, persistence, privilege escalation, lateral movement, command and control, and objective completion, while ensuring safety and measurement are built in from the start."
-    },  
+    },
     {
         "instruction": "What are the initial access techniques?",
         "input": "",
         "output": "Initial access techniques are the methods attackers use to get their first foothold in a target environment. MITRE ATT&CK identifies examples such as spearphishing, exploitation of public-facing applications, valid accounts, use of external remote services, hardware additions, and supply-chain compromise. In current operations, initial access is often a blend of technical exploitation and human targeting, especially when attackers chain stolen credentials or phishing with exposed remote services and unpatched internet-facing systems."
-    },   
+    },
     {
         "instruction": "What is the meaning of social engineering?",
         "input": "",
         "output": "Social engineering is the practice of manipulating people into performing actions or revealing information that helps an attacker gain access, bypass controls, or increase trust. In a red team or real intrusion, this can include phishing, pretexting, impersonation, fake support interactions, or convincing a user to run commands or disclose credentials. The key idea is that the attacker is exploiting human behavior and trust rather than relying only on software vulnerabilities."
-    },   
+    },
     {
         "instruction": "What is the meaning of credential access?",
         "input": "",
         "output": "Credential access is the ATT&CK concept for techniques adversaries use to steal, obtain, or abuse authentication material such as passwords, hashes, tokens, cookies, or Kerberos tickets. MITRE explains techniques as the “how” of achieving a tactical goal, and credential dumping is a classic example used to achieve credential access. In practical terms, credential access matters because once attackers have valid credentials, they can often persist, escalate privileges, move laterally, and avoid noisy exploitation."
-    },  
+    },
     {
         "instruction": "What is the meaning of privilege escalation (PrivEsc)?",
         "input": "",
         "output": "Privilege escalation, or PrivEsc, means gaining higher permissions than the attacker initially had, such as moving from a standard user to local administrator, root, or domain-level privileges. This can happen through misconfigurations, software flaws, credential abuse, or misuse of legitimate administrative mechanisms already present in the environment. In red teaming, PrivEsc is important because it often determines whether the operator can access sensitive systems, disable controls, and continue the operation without being blocked."
-    },   
+    },
     {
         "instruction": "What is the meaning of lateral movement?",
         "input": "",
         "output": "Lateral movement is the process of moving from one compromised system to other systems inside the environment in order to expand access and get closer to mission objectives. Attackers commonly do this by abusing valid accounts, remote administration tools, shared credentials, weak segmentation, and trust relationships between hosts or domains. In red team operations, lateral movement reveals whether internal defenses, identity controls, and network boundaries actually limit the spread of an intruder after the first compromise."
-    },   
+    },
     {
         "instruction": "What is the meaning of persistence?",
         "input": "",
         "output": "Persistence is the set of techniques adversaries use to maintain access across reboots, account changes, or normal administrative activity so they can return later without repeating the original intrusion. This can involve scheduled tasks, services, startup items, modified accounts, remote access tools, cloud identity changes, or other footholds that survive disruption. In both red teaming and real incidents, persistence is a critical stage because it tests whether defenders can find and remove not just the first entry point but also the mechanisms keeping the attacker in place."
-    },   
+    },
     {
         "instruction": "What are the common findings from the red team?",
         "input": "",
@@ -248,47 +248,47 @@
         "instruction": "What are the indicators of compromise (IOCs)?",
         "input": "",
         "output": "Indicators of compromise (IOCs) are observable artifacts that suggest a system, account, or network may have been involved in malicious activity. Common IOCs include suspicious IP addresses, domains, file hashes, unusual registry changes, malicious email artifacts, unauthorized account activity, and known bad command-and-control infrastructure. Defenders use IOCs to detect, investigate, and contain incidents, although they are most effective when combined with behavioral analysis because attackers can change them quickly."
-    },   
+    },
     {
         "instruction": "What is supply chain attack?",
         "input": "",
         "output": "A supply chain attack is an intrusion in which an adversary compromises a trusted supplier, software provider, service provider, or upstream dependency in order to reach downstream victims. Instead of attacking the final target directly, the attacker abuses the trust relationship between the victim and the compromised third party, such as through software updates, managed services, hardware components, or development tooling. These attacks are especially dangerous because they can scale to many victims at once while appearing to come from a legitimate source."
-    },  
+    },
     {
         "instruction": "What is the meaning of phishing?",
         "input": "",
         "output": "Phishing is a deceptive technique in which an attacker sends fraudulent messages or creates fake content to trick a victim into revealing information, opening a malicious file, clicking a malicious link, or taking another action that helps the attacker. It usually relies on impersonation, urgency, fear, or trust to manipulate the target into responding. In modern operations, phishing is used not only for malware delivery but also for credential theft and other forms of initial access."
-    },   
+    },
     {
         "instruction": "What is the meaning of spear phishing?",
         "input": "",
         "output": "Spear phishing is a targeted form of phishing aimed at a specific person, team, or organization rather than a broad set of random recipients. It is typically customized using details such as names, job roles, vendors, projects, or internal language to make the lure more convincing. Because it is tailored to the victim, spear phishing often has a higher success rate than generic phishing and is commonly used by advanced threat actors."
-    },   
+    },
     {
         "instruction": "What are the persistence techniques?",
         "input": "",
         "output": "Persistence techniques are the methods adversaries use to maintain access across reboots, password changes, and other interruptions that might otherwise cut off their foothold. MITRE ATT&CK lists many persistence approaches, including startup items, scheduled tasks, malicious services, account manipulation, DLL hijacking, application shimming, registry modifications, and code that is triggered during normal system events. The core idea is that the attacker changes the environment in a way that allows them to return or continue operating without repeating the original compromise."
-    },  
+    },
     {
         "instruction": "What is Advanced Persistent Threat (APT) life cycle?",
         "input": "",
         "output": "The APT life cycle generally starts with reconnaissance and preparation, then moves into initial access, execution, persistence, privilege escalation, internal discovery, lateral movement, and command and control. Unlike quick smash-and-grab attacks, APT activity is deliberate and sustained, with the adversary adapting over time to remain undetected while pursuing long-term objectives. The final phases usually involve data theft, espionage, disruption, or prepositioning for future operations, depending on the mission of the actor."
-    },   
+    },
     {
         "instruction": "What are the key components in reconnaissance?",
         "input": "",
         "output": "The key components in reconnaissance are gathering information about the victim’s organization, personnel, identities, domains, infrastructure, technologies, and publicly exposed services. MITRE ATT&CK notes that reconnaissance can be active or passive and may include collecting email addresses, employee names, domain properties, credentials, and other details that help the attacker plan targeting. The purpose of reconnaissance is to reduce uncertainty so later phases such as phishing, exploitation, and lateral movement can be executed more effectively."
-    },   
+    },
     {
         "instruction": "What are the key components in Advanced Persistent Threat (APT) operations?",
         "input": "",
         "output": "Key components in APT operations include reconnaissance, resource development, initial access, persistence, privilege escalation, defense evasion, credential access, discovery, lateral movement, command and control, and actions on objectives. APT operations also depend heavily on planning, operational security, stealth, infrastructure management, and the ability to adapt tradecraft when defenders react. In practice, the defining feature is not one specific malware family or exploit, but a coordinated and persistent campaign that combines multiple capabilities to achieve strategic goals over time."
-    },   
+    },
     {
         "instruction": "What are nation-state hackers?",
         "input": "",
         "output": "Nation-state hackers are threat actors who work for, support, or are directed by a national government, usually to advance strategic, military, political, intelligence, or economic objectives. They are often more capable and better resourced than ordinary cybercriminals, and they commonly conduct espionage, influence operations, disruptive attacks, or prepositioning inside critical systems. In current cybersecurity practice, the term usually refers to state-sponsored cyber groups rather than independent criminals, even though some governments also collaborate with criminal ecosystems or tolerate them when useful."
-    },  
+    },
     {
         "instruction": "What is critical infrastructure?",
         "input": "",
@@ -298,47 +298,47 @@
         "instruction": "What are the key components of malware code?",
         "input": "",
         "output": "The key components of malware code commonly include a delivery or execution mechanism, a payload that performs the malicious action, and support functions for persistence, command-and-control, credential theft, evasion, or propagation. NIST’s malware guidance shows that malware families vary widely, but many are built around the same core pattern of gaining execution, carrying out malicious objectives, and maintaining or expanding access. In practice, malware code often also includes configuration logic, environment checks, and obfuscation so it can run reliably while avoiding simple detection."
-    },   
+    },
     {
         "instruction": "What are the key components of ransomware code?",
         "input": "",
         "output": "The key components of ransomware code typically include a payload that encrypts or locks data, routines for key management or encryption control, and logic for ransom-note delivery, victim identification, and often data exfiltration in double-extortion operations. CISA’s current ransomware guidance emphasizes that modern ransomware is no longer only about encryption, because many operators also steal data, disable recovery options, and impair backups before revealing the ransom demand. In other words, ransomware code is usually designed to maximize both operational disruption and extortion pressure, not just file encryption alone."
-    },   
+    },
     {
         "instruction": "What is intrusion detection system (IDS)?",
         "input": "",
         "output": "An intrusion detection system, or IDS, is a security system that monitors network or host activity for signs of unauthorized access, misuse, or other suspicious behavior. NIST defines IDS as a service or software capability that analyzes events and provides real-time or near-real-time warning of attempts to access system resources in an unauthorized manner. An IDS is primarily focused on detection and alerting, which distinguishes it from preventive controls that try to block activity directly."
-    },  
+    },
     {
         "instruction": "What is endpoint detection and response (EDR)?",
         "input": "",
         "output": "Endpoint detection and response, or EDR, is a security capability that collects telemetry from endpoints and uses it to detect, investigate, and support response to malicious activity. CISA describes EDR as part of an enterprise approach that improves visibility into endpoint behavior and helps defenders move from fragmented tools toward coordinated detection and response. In practical terms, EDR helps security teams see what happened on hosts, correlate activity, and take action such as containment, investigation, and remediation."
-    },   
+    },
     {
         "instruction": "What are the techniques to bypass intrusion detection system (IDS)?",
         "input": "",
         "output": "Attackers commonly try to reduce IDS visibility by making malicious activity look like normal traffic, using encrypted channels, fragmenting activity across systems or time, or exploiting gaps in logging and sensor coverage. At a high level, the defensive lesson is that IDS can be weakened by blind spots, poor tuning, insufficient decryption visibility, incomplete telemetry, and weak correlation across network and host data. Because this topic can be misused, the safe takeaway is that defenders should strengthen coverage, normalize and correlate events, and validate detection content regularly rather than focusing on offensive evasion steps."
-    },   
+    },
     {
         "instruction": "What are the techniques to bypass endpoint detection and response (EDR)?",
         "input": "",
         "output": "Attackers often attempt to avoid EDR by blending into legitimate administrator activity, abusing trusted system tools, operating in memory, or targeting the visibility and policy gaps that exist on endpoints. Recent CISA and Microsoft-aligned guidance consistently shows that living-off-the-land behavior, incomplete telemetry, and control gaps can make EDR less effective when not paired with strong configuration, identity controls, and response workflows. The safe and useful conclusion is that organizations should harden endpoints, reduce administrative abuse paths, collect broader telemetry, and test detections against realistic attacker behavior instead of seeking step-by-step bypass methods."
-    },  
+    },
     {
         "instruction": "What is active directory (AD)?",
         "input": "",
         "output": "Active Directory, most commonly Active Directory Domain Services or AD DS, is Microsoft’s directory service for storing information about users, computers, groups, and other network objects in a hierarchical structure. Microsoft explains that AD DS provides the methods for storing directory data and making that data available to authorized users and administrators across the network. In enterprise environments, AD is central to identity, authentication, authorization, and policy management, which is why it is such a critical security dependency."
-    },   
+    },
     {
         "instruction": "What is CIA triad?",
         "input": "",
         "output": "The CIA triad is the foundational security model built around confidentiality, integrity, and availability. NIST defines CIA in exactly those terms, with confidentiality focused on preventing unauthorized disclosure, integrity on preventing unauthorized alteration, and availability on ensuring timely and reliable access. It remains one of the most widely used ways to describe the primary security objectives that controls and risk decisions are meant to protect."
-    },   
+    },
     {
         "instruction": "What is attack surface?",
         "input": "",
         "output": "Attack surface is the set of points where an attacker can try to enter a system, affect it, or extract data from it. NIST defines it as the set of points on the boundary of a system, system component, or environment where an attacker can try to enter, cause an effect on, or extract data from that environment. In practical security work, reducing attack surface means minimizing exposed services, identities, interfaces, dependencies, and other reachable pathways that create opportunities for compromise."
-    },   
+    },
     {
         "instruction": "How to document your findings?",
         "input": "",
@@ -348,47 +348,47 @@
         "instruction": "What is a risk in cyber security?",
         "input": "",
         "output": "In cybersecurity, risk is the measure of how much an organization or individual could be harmed by a potential cyber event. NIST defines risk as a function of the likelihood that a circumstance or event will occur and the impact if it does occur. In practice, cyber risk usually refers to possible losses involving confidentiality, integrity, availability, operations, finances, reputation, or safety."
-    },   
+    },
     {
         "instruction": "What is a threat in cyber security?",
         "input": "",
         "output": "In cybersecurity, a threat is any circumstance, event, or actor with the potential to cause harm through unauthorized access, destruction, disclosure, modification, or disruption. NIST describes a cyber threat as something that can adversely affect organizational operations, assets, or individuals through an information system. A threat does not have to be an active attack yet, because it can also be a potential danger waiting for the right opportunity."
-    },   
+    },
     {
         "instruction": "What is an exploit in cyber security?",
         "input": "",
         "output": "In cybersecurity, an exploit is a method, technique, or piece of code used to take advantage of a vulnerability in software, hardware, or a system. An exploit is usually the mechanism that turns a weakness into an actual compromise, such as unauthorized access, code execution, or malware delivery. It is important to distinguish an exploit from a vulnerability, because the vulnerability is the flaw while the exploit is the way that flaw is abused."
-    },  
+    },
     {
         "instruction": "What is a scope in cyber security?",
         "input": "",
         "output": "In cybersecurity, scope is the clearly defined boundary of what systems, applications, networks, accounts, locations, and activities are included in an assessment, test, or engagement. Good scope-setting also identifies what is out of scope, what constraints apply, and what notifications or approvals are required before work begins. In security testing guidance, scope is tied closely to the Rules of Engagement so the work stays authorized, safe, and relevant to the objective."
-    },   
+    },
     {
         "instruction": "What is rules of engagement (RoE) in cyber security?",
         "input": "",
         "output": "Rules of Engagement, or RoE, are the detailed guidelines and constraints that govern how a cybersecurity test or assessment will be conducted. NIST defines RoE as the document established before testing that gives the team authority to perform defined activities without needing extra permission each time. In practice, RoE usually covers scope, timing, communication channels, prohibited actions, escalation paths, safety limits, and notification requirements."
-    },   
+    },
     {
         "instruction": "What is open-source intelligence (OSINT)?",
         "input": "",
         "output": "Open-source intelligence, or OSINT, is intelligence derived from publicly or commercially available information to answer a specific intelligence need or question. Current U.S. intelligence community language describes OSINT as intelligence derived exclusively from publicly or commercially available information that addresses specific intelligence priorities, requirements, or gaps. In cybersecurity, OSINT is used to understand targets, exposures, threats, and digital footprints without relying on secret or intrusive collection."
-    },  
+    },
     {
         "instruction": "What is passive reconnaissance?",
         "input": "",
         "output": "Passive reconnaissance is information gathering that avoids direct interaction with the target’s systems and instead relies on outside observation and publicly available or previously collected data. MITRE explains that reconnaissance can be either active or passive, and NIST SP 800-115 describes passive testing techniques such as reviews and network sniffing that do not actively probe the target in the same way as scanning does. In practice, passive reconnaissance is used to reduce noise and detection risk while building an initial picture of the target environment."
-    },   
+    },
     {
         "instruction": "What is active reconnaissance?",
         "input": "",
         "output": "Active reconnaissance is information gathering that directly interacts with the target environment to discover details such as hosts, services, configurations, or exposed resources. MITRE notes that reconnaissance can involve active collection, and NIST SP 800-115 gives examples such as active scanning for network discovery. Because it touches the target directly, active reconnaissance is usually more informative than passive reconnaissance but also more likely to be logged or detected."
-    },   
+    },
     {
         "instruction": "What is enumeration in cyber security?",
         "input": "",
         "output": "Enumeration in cybersecurity is the process of systematically extracting detailed information from a target system, service, or network after or during initial discovery. It commonly focuses on identifying items such as usernames, shares, services, software details, protocols, or other technical information that can support further assessment or attack planning. While NIST SP 800-115 emphasizes discovery and identification activities rather than using enumeration as a standalone glossary term, the concept aligns with direct technical probing to collect actionable detail from exposed services and hosts."
-    },   
+    },
     {
         "instruction": "What is vulnerability in cyber security?",
         "input": "",
@@ -398,47 +398,47 @@
         "instruction": "What is a computer virus?",
         "input": "",
         "output": "A computer virus is a type of malicious code that can copy itself and infect a computer without the user’s permission or knowledge. NIST defines a virus as a program that may corrupt or delete data, use email programs to spread itself, or even erase everything on a hard disk. Unlike some other malware, a virus normally needs a host file, program, or document and typically spreads when that host is executed or opened."
-    },   
+    },
     {
         "instruction": "What are the types of computer viruses?",
         "input": "",
         "output": "Common computer virus types include file-infecting viruses, boot-sector viruses, macro viruses, multipartite viruses, and polymorphic viruses. File-infecting viruses attach to executable files, boot-sector viruses target startup records, and macro viruses abuse application macro languages such as those used in Microsoft Office documents. Multipartite viruses infect more than one area of a system, while polymorphic viruses change their code pattern to make detection harder."
-    },   
+    },
     {
         "instruction": "How is computer virus spreading?",
         "input": "",
         "output": "A computer virus spreads by attaching itself to a host file, application, script, or document and then replicating when that host is opened, run, or shared. In current environments, common spread paths include phishing emails, malicious attachments, compromised websites, unsafe downloads, removable media, and software vulnerabilities. Microsoft also notes that hacked webpages, spam email, suspicious websites, and bundled or unwanted software remain important infection paths for malicious code broadly, including viruses."
-    },  
+    },
     {
         "instruction": "What are the common computer virus infection vectors?",
         "input": "",
         "output": "Common computer virus infection vectors include email attachments, malicious documents, compromised or hacked websites, downloaded software, removable drives, and files shared through messaging or network storage. MITRE documents malicious attachments as a frequent way adversaries deliver malware, while Microsoft highlights spam email, suspicious websites, removable media, and software vulnerabilities as recurring infection sources. In practice, the most common vector is still user execution of something that appears legitimate, such as a document, installer, or script."
-    },   
+    },
     {
         "instruction": "What is computer virus life cycle?",
         "input": "",
         "output": "A computer virus life cycle is commonly described in four phases: dormant, propagation, triggering, and execution. In the dormant phase the virus may remain idle, in propagation it copies itself into other files or system areas, in triggering it activates under a defined condition, and in execution it performs its payload. Not every virus follows every phase in exactly the same way, but this model is still widely used to explain how viruses spread and cause harm."
-    },   
+    },
     {
         "instruction": "What are the computer virus symptoms?",
         "input": "",
         "output": "Common computer virus symptoms include unusually slow performance, frequent crashes or freezes, unexpected pop-ups, unknown programs, changed browser settings, and difficulty opening security tools or trusted websites. Microsoft specifically warns that infected systems may become unusually slow, stop responding, block antivirus tools or Task Manager, or change the browser home page unexpectedly. These signs are not unique to viruses alone, but they are strong indicators that malware or another unwanted program may be present."
-    },  
+    },
     {
         "instruction": "What are the effects of computer virus?",
         "input": "",
         "output": "A computer virus can damage or delete files, corrupt programs, consume system resources, disrupt normal operations, and spread to additional systems or users. NIST notes that a virus may corrupt or delete data, spread through email programs, or even erase everything on a hard disk, while Microsoft describes malware broadly as causing disruption, damage, unauthorized access, and theft. The overall effect can range from minor instability to major data loss, downtime, privacy harm, and recovery costs."
-    },   
+    },
     {
         "instruction": "What is a macro virus?",
         "input": "",
         "output": "A macro virus is a type of computer virus that is stored in macros or other active content inside files such as documents, spreadsheets, presentations, workbooks, or templates. Microsoft explains that macro viruses can be stored in Microsoft 365 files as well as in ActiveX controls, COM add-ins, or Microsoft 365 add-ins. When a user opens the infected file and enables or runs the active content, the malicious macro can execute and spread or deliver additional malware."
-    },   
+    },
     {
         "instruction": "What is a document-based malware?",
         "input": "",
         "output": "Document-based malware is malware that is delivered through or embedded in a document file, such as a Word document, spreadsheet, presentation, PDF, or other file made to look benign. These attacks often rely on malicious macros, embedded scripts, exploit code, or deceptive links and typically succeed when a user opens the file or enables active content. MITRE’s spearphishing attachment guidance and Microsoft’s macro-virus guidance both show that documents remain a common delivery vehicle for malware because they are familiar, portable, and easy to disguise as legitimate business files."
-    },   
+    },
     {
         "instruction": "What are the stealth techniques in cyber security?",
         "input": "",
@@ -448,47 +448,47 @@
         "instruction": "What is the meaning of cybercrime?",
         "input": "",
         "output": "Cybercrime means criminal activity committed on the internet, against computer systems, or with the aid of computer technology. The U.S. Department of Justice distinguishes cyber crimes, where computers or networks are the target, from cyber-enabled crimes, where digital technology is used to facilitate fraud, theft, or other offenses. In practical terms, cybercrime includes activities such as intrusions, malware, ransomware, data breaches, botnets, denial-of-service attacks, and online fraud."
-    },   
+    },
     {
         "instruction": "What is the meaning of online fraud and scams?",
         "input": "",
         "output": "Online fraud and scams are deceptive schemes carried out through internet-connected services to trick victims into sending money, revealing sensitive information, or taking actions that benefit the criminal. The FBI describes these schemes as common internet-enabled crimes that exploit trust, urgency, fear, or impersonation to separate victims from money or data. In practice, online fraud and scams cover a wide range of abuse across email, websites, social media, messaging apps, online marketplaces, and payment platforms."
-    },   
+    },
     {
         "instruction": "What are the types of online fraud and scams?",
         "input": "",
         "output": "Common types of online fraud and scams include phishing, spoofing, romance scams, charity and disaster fraud, investment fraud, advance-fee fraud, auction and non-delivery scams, tech-support scams, and account-takeover schemes. FBI materials also highlight telemarketing fraud, pyramid and Ponzi schemes, and a wide variety of internet-enabled impersonation scams. The exact mix keeps evolving, but most online scams still rely on deception, false identities, and pressure tactics rather than technical sophistication alone."
-    },  
+    },
     {
         "instruction": "What is the meaning of Business Email Compromise (BEC)?",
         "input": "",
         "output": "Business Email Compromise, or BEC, is a sophisticated scam that targets businesses or individuals involved in legitimate transfer-of-funds requests. The FBI’s IC3 says it is frequently carried out when someone compromises legitimate business or personal email accounts through social engineering or computer intrusion to conduct unauthorized transfers of funds. In practice, BEC is dangerous because the criminal often abuses real accounts or convincing impersonation, which makes fraudulent payment requests appear legitimate."
-    },   
+    },
     {
         "instruction": "What are the types of Business Email Compromise (BEC)?",
         "input": "",
         "output": "Types of BEC include executive impersonation, vendor or supplier payment redirection, payroll diversion, attorney or trusted-adviser impersonation, and email account compromise used to alter invoices or payment instructions. The FBI and IC3 also recognize that BEC can target individuals as well as businesses, especially when the scam exploits routine transfer or payment workflows. More recent variants extend into virtual meeting platforms and other communication tools, but the core pattern remains unauthorized fund transfer or sensitive data theft through trusted business communications."
-    },   
+    },
     {
         "instruction": "What is the meaning of identity theft and identity fraud?",
         "input": "",
         "output": "Identity theft is when someone uses another person’s personal or financial information without permission. The FTC explains that stolen data can include names, addresses, Social Security numbers, bank account numbers, credit card numbers, or medical insurance information. Identity fraud is the use of that stolen identity information to commit fraud or theft, such as opening accounts, filing false claims, or making unauthorized purchases."
-    },  
+    },
     {
         "instruction": "What are the types of identity theft and identity fraud?",
         "input": "",
         "output": "Types of identity theft and identity fraud include financial identity theft, tax identity theft, medical identity theft, criminal identity theft, employment identity theft, child identity theft, and synthetic identity fraud. FTC materials specifically note misuse involving bank accounts, credit, loans, benefits, and other financial products, while IdentityTheft.gov highlights tax, medical, and child identity theft as important categories. These categories differ by how the stolen identity is misused, but they all involve unauthorized use of another person’s identifying information."
-    },   
+    },
     {
         "instruction": "What is the meaning of data theft and breaches?",
         "input": "",
         "output": "Data theft is the unauthorized taking or exfiltration of sensitive information, while a data breach is an event in which data becomes accessible to people who should not have access to it. CISA’s glossary defines a data breach as an event where data becomes accessible to unauthorized people, whether the exposure is intentional or accidental. In practice, data theft often refers to the criminal act of stealing information, whereas a breach describes the broader incident in which confidentiality was lost."
-    },   
+    },
     {
         "instruction": "What are the types of data theft and breaches?",
         "input": "",
         "output": "Types of data theft and breaches include theft or exposure of personal data, financial data, health data, credentials, intellectual property, trade secrets, and confidential business information. Breaches can happen through hacking, insider misuse, lost or stolen devices, misconfigurations, accidental disclosure, third-party compromise, or malware-driven exfiltration. CISA’s federal incident guidance specifically distinguishes privacy data breaches involving PII or PHI, which shows that breach categories are often defined by the kind of data exposed and the way confidentiality was compromised."
-    },   
+    },
     {
         "instruction": "What is the meaning of Distributed Denial-of-Service (DDoS)?",
         "input": "",
@@ -498,47 +498,47 @@
         "instruction": "What is the meaning of online child sexual exploitation (OCSE)?",
         "input": "",
         "output": "Online child sexual exploitation means using the internet or digital technologies to sexually exploit a person under 18. It includes grooming, coercion, manipulation, livestreamed abuse, and the production or sharing of child sexual abuse material through online platforms and devices. Europol and DHS child-safety guidance both treat it as a form of child sexual abuse carried out or enabled in digital environments."
-    },   
+    },
     {
         "instruction": "What is the meaning of Child Sexual Abuse Material (CSAM)?",
         "input": "",
         "output": "Child Sexual Abuse Material, or CSAM, means any visual depiction of sexually explicit conduct involving a person younger than 18. The term is used because these images and videos are evidence of child sexual abuse, not merely inappropriate content. Current DHS and DOJ materials emphasize that creating, possessing, or distributing CSAM is a serious crime tied directly to the exploitation of children."
-    },   
+    },
     {
         "instruction": "What is the meaning of digital sextortion?",
         "input": "",
         "output": "Digital sextortion is a crime in which an offender coerces or threatens a victim online using real or requested intimate images, videos, or sexual acts. Recent FBI and FinCEN guidance shows that offenders often use fake personas, then threaten to release sexual material unless the victim sends more content, money, or gift cards. Although minors are especially vulnerable, financially motivated sextortion can target people of many ages."
-    },  
+    },
     {
         "instruction": "What is the meaning of cyber extortion?",
         "input": "",
         "output": "Cyber extortion is the use of computers, networks, or stolen digital data to threaten harm unless the victim pays money or complies with demands. The threatened harm may involve ransomware, data leaks, denial-of-service attacks, or other disruptive or embarrassing actions. In simple terms, it modernizes traditional extortion by making the pressure and damage digital."
-    },   
+    },
     {
         "instruction": "What are the key components of cybercrime-as-a-service (CaaS)?",
         "input": "",
         "output": "The key components of Cybercrime-as-a-Service include specialized vendors, packaged attack tools, stolen or leaked data, online marketplaces, forums, encrypted chat platforms, and payment mechanisms such as cryptocurrency. Current Microsoft and Canadian government reporting also highlights service categories such as Malware-as-a-Service, Ransomware-as-a-Service, Access-as-a-Service, Phishing-as-a-Service, DDoS-as-a-Service, and Exploits-as-a-Service. Together, these components lower the barrier to entry by letting less-skilled criminals buy tools, infrastructure, and support instead of building them themselves."
-    },   
+    },
     {
         "instruction": "What is the meaning of botnet?",
         "input": "",
         "output": "A botnet is a network of compromised devices that an attacker remotely controls as a group. NIST’s glossary explains that criminals infect multiple computers, take control of them, and organize them into a network of “bots” that can be managed centrally. Botnets are commonly used for DDoS attacks, spam, credential attacks, malware delivery, and other coordinated malicious activity."
-    },  
+    },
     {
         "instruction": "What is an underground forum?",
         "input": "",
         "output": "An underground forum is an online discussion and trading venue used by criminals to communicate, exchange knowledge, and buy or sell illicit goods or services. Current Canadian and U.S. government reporting shows that these forums are used to purchase tools, connect with other offenders, and trade stolen credentials, databases, and cybercrime services. In practice, an underground forum functions as both a social hub and a marketplace inside the cybercrime ecosystem."
-    },   
+    },
     {
         "instruction": "What is a cybercrime market?",
         "input": "",
         "output": "A cybercrime market is the broader illicit economy where criminals buy, sell, lease, or resell stolen data, tools, access, infrastructure, and attack services. Government reporting describes these markets as criminal platforms that function similarly to legitimate online marketplaces, but for cybercrime goods and services. This market model is a major reason cybercrime has become scalable, specialized, and accessible to a wider range of offenders."
-    },   
+    },
     {
         "instruction": "What is the meaning of financial cybercrime?",
         "input": "",
         "output": "Financial cybercrime means cyber-enabled criminal activity aimed at stealing money, financial assets, payment credentials, or other economic value. INTERPOL’s 2026 threat assessment describes financial fraud as one of the world’s most severe and rapidly evolving transnational crimes, increasingly intersecting with organized crime and cybercrime. In practical terms, financial cybercrime includes scams, account takeovers, payment fraud, investment fraud, business email compromise, and related schemes conducted through digital systems."
-    },   
+    },
     {
         "instruction": "What is an organized cybercrime group?",
         "input": "",
@@ -548,47 +548,47 @@
         "instruction": "What is cryptocurrency?",
         "input": "",
         "output": "Cryptocurrency is a type of digital asset that is created, stored, and transferred electronically using cryptographic techniques. Official European Central Bank material describes crypto-assets as digital assets that users store and exchange electronically in a peer-to-peer way, typically without relying on a traditional trusted intermediary. In common use, cryptocurrency usually refers to crypto-assets such as Bitcoin or Ether that operate on blockchain or other distributed ledger systems."
-    },   
+    },
     {
         "instruction": "How does cryptocurrency work?",
         "input": "",
         "output": "Cryptocurrency works by recording transactions on a distributed ledger maintained by a network of computers rather than a single central database. NIST explains that blockchain networks provide secure transaction reconciliation, linkage, and storage in integrity-protected distributed ledgers, while transactions update ownership or control of digital assets according to network rules. In practice, users authorize transfers with cryptographic keys, and the network validates and records those transfers so the ledger stays consistent across participants."
-    },   
+    },
     {
         "instruction": "What are the types of cryptocurrency?",
         "input": "",
         "output": "Common types of cryptocurrency include native coins such as Bitcoin, platform coins such as Ether, stablecoins that aim to track the value of another asset, and other tokenized crypto-assets used for specific network functions. ECB material distinguishes between different crypto-asset categories, including assets that are not liabilities of any issuer and stablecoins, which shows that the ecosystem is not one single uniform type. A practical way to group them is by purpose, such as payment-oriented coins, smart-contract platform assets, stable-value tokens, and utility or governance tokens."
-    },  
+    },
     {
         "instruction": "What is cryptocurrency used for?",
         "input": "",
         "output": "Cryptocurrency is used for peer-to-peer transfers, trading and speculation, settlement of tokenized transactions, access to blockchain-based services, and in some cases payments. NIST notes that blockchain-based tokens can support transaction settlement, user-centric ownership models, and interoperable digital representations, while ECB sources describe crypto-assets as assets exchanged electronically over DLT-style systems. In reality, usage varies widely by asset, with some mainly used for investment and network operations rather than everyday consumer payments."
-    },   
+    },
     {
         "instruction": "What is decentralized network?",
         "input": "",
         "output": "A decentralized network is a network in which control, validation, or record-keeping is distributed across multiple participants rather than concentrated in one central authority or repository. NIST describes blockchain systems as distributed digital ledger systems implemented without a central repository and usually without a central authority. In simple terms, a decentralized network spreads responsibility across many nodes so no single operator fully controls the whole system."
-    },   
+    },
     {
         "instruction": "How does decentralized network work?",
         "input": "",
         "output": "A decentralized network works by having multiple nodes maintain, validate, share, or synchronize the same system state according to agreed rules or protocols. In blockchain-style decentralized networks, each participant can hold or verify ledger data, and updates are accepted only when the network’s protocol determines they are valid. This design reduces dependence on one central server or institution and can improve resilience, transparency, or fault tolerance, depending on the architecture."
-    },  
+    },
     {
         "instruction": "What are the types of decentralized networks?",
         "input": "",
         "output": "Types of decentralized networks commonly include public permissionless networks, private permissioned networks, and consortium or hybrid networks with shared governance. NIST materials distinguish permissionless blockchains, which are generally open to broad participation, from permissioned blockchains, where participation is private or controlled. Beyond blockchain, decentralized networks can also be categorized by function, such as storage networks, identity networks, communication networks, and distributed computing systems."
-    },   
+    },
     {
         "instruction": "What is decentralized networks used for?",
         "input": "",
         "output": "Decentralized networks are used for shared record-keeping, asset transfer, tokenization, identity-related services, smart contracts, and other applications that benefit from distributed trust or shared control. ECB and NIST materials both highlight uses related to digital assets, tokenization, and transaction processing on distributed ledger infrastructures. More broadly, organizations explore decentralized networks when they want multiple parties to coordinate on data or transactions without relying entirely on one central operator."
-    },   
+    },
     {
         "instruction": "What is blockchain?",
         "input": "",
         "output": "Blockchain is a collaborative, tamper-resistant ledger that maintains transaction records in grouped data blocks. NIST explains that each block is linked to the previous one using a unique identifier based on the earlier block’s data, which makes later changes visible and provides tamper evidence. At a high level, blockchain is one form of distributed ledger technology designed to let a community record and share transactions in a consistent way."
-    },   
+    },
     {
         "instruction": "How does blockchain work?",
         "input": "",
@@ -598,47 +598,47 @@
         "instruction": "What is money laundering?",
         "input": "",
         "output": "Money laundering is the process of making criminal proceeds appear legitimate so they can be used with less risk of detection or seizure. The IMF describes money laundering as tied to underlying “predicate” crimes and warns that it can threaten the integrity and stability of the financial sector and the broader economy. In plain terms, it is the financial concealment stage that helps criminals enjoy the proceeds of crime."
-    },   
+    },
     {
         "instruction": "How does money laundering work?",
         "input": "",
         "output": "Money laundering usually works by moving illicit money through a sequence of transactions that obscures its source and makes it look lawful. FATF’s standard model describes three classic stages: placement into the financial system, layering through conversions or transfers to distance the funds from their origin, and integration back into the economy with an appearance of legitimacy. Not every case follows those stages neatly, but the core idea is always to disguise origin, ownership, and control."
-    },   
+    },
     {
         "instruction": "What are the key components of money laundering?",
         "input": "",
         "output": "The key components of money laundering are the criminal proceeds themselves, a method for inserting or moving value, mechanisms for concealment, and a final route to reintroduce the money as apparently legitimate wealth. FATF’s framework centers on placement, layering, and integration, which together explain how illicit value is introduced, obscured, and absorbed into the legal economy. In practice, facilitators such as shell entities, trade transactions, financial accounts, and sometimes virtual assets may all be used to support those components."
-    },  
+    },
     {
         "instruction": "What are the types of money laundering?",
         "input": "",
         "output": "Common types of money laundering include cash-based laundering, trade-based money laundering, laundering through shell companies, laundering through real estate, and laundering through virtual assets. FATF specifically defines trade-based money laundering as disguising criminal proceeds and moving value through trade transactions to legitimize illicit origins, while FinCEN has repeatedly flagged shell companies and real estate as important laundering channels. More recently, AML authorities also treat virtual-asset misuse as a meaningful laundering typology alongside these more traditional methods."
-    },   
+    },
     {
         "instruction": "How is money laundering used in cybercrime?",
         "input": "",
         "output": "In cybercrime, money laundering is used to convert proceeds from fraud, ransomware, theft, and other digital offenses into spendable assets while obscuring the link to the original crime. Chainalysis reports that laundering stolen crypto and scam proceeds often spreads across many asset types, while FATF and FinCEN continue to warn that virtual assets can be used for criminal activity and laundering. The laundering step is what helps cybercriminals move from a successful attack to actual financial benefit."
-    },   
+    },
     {
         "instruction": "What cryptocurrencies are used in cybercrime?",
         "input": "",
         "output": "Cryptocurrencies used in cybercrime are not limited to one asset, but recent reporting shows that Bitcoin remains especially important in ransomware and darknet market activity. Chainalysis states that ransomware and darknet market sales remain BTC-dominated, while Monero is increasingly important in parts of the darknet ecosystem and scams or laundering of stolen funds often spread across many asset types. That means cybercriminal use is best understood by activity type rather than by assuming one coin dominates every category."
-    },  
+    },
     {
         "instruction": "What is the impact of cybercrime?",
         "input": "",
         "output": "The impact of cybercrime includes financial loss, service disruption, data theft, reputational damage, erosion of trust, and wider harm to economic and social stability. UNODC says cybercrime has grown into a thriving, highly profitable industry threatening governments, businesses, and people worldwide, while NIST notes that cybercrime losses can reach billions in lost revenue and productivity and can damage customer trust. In real terms, the impact is both immediate, such as fraud and downtime, and systemic, such as weakened resilience and confidence in digital systems."
-    },   
+    },
     {
         "instruction": "What are the trends of cybercrime?",
         "input": "",
         "output": "Current cybercrime trends include increasing industrialization, greater use of criminal services, data theft as a central commodity, and heavier exploitation of human vulnerabilities alongside technical weaknesses. Europol’s IOCTA 2025 says data is the central commodity of the cybercrime economy and that criminals acquire it through both system vulnerabilities and human oversight, while UNODC describes cybercrime as a highly profitable global industry. Another major trend is ecosystem specialization, where access brokers, data brokers, scam operators, and service providers each play distinct roles in a broader criminal market."
-    },   
+    },
     {
         "instruction": "What are the core types of cybercrime?",
         "input": "",
         "output": "The core types of cybercrime are generally grouped into cyber-dependent crimes and cyber-enabled crimes. UNODC explains that cybercrime broadly encompasses both cyber-dependent criminal activity, which relies on ICT systems as the target or essential means, and cyber-enabled criminal activity, where traditional crimes such as fraud are amplified by digital technology. This distinction is useful because it separates crimes that require computers to exist from crimes that are merely scaled or accelerated by them."
-    },   
+    },
     {
         "instruction": "What are the key components of criminal ecosystem?",
         "input": "",
@@ -648,47 +648,47 @@
         "instruction": "What are the key components of command and control (C2)?",
         "input": "",
         "output": "The key components of command and control usually include compromised endpoints, C2 infrastructure such as servers or relay nodes, a communications channel, and logic for tasking, reporting, and sometimes data exfiltration. MITRE ATT&CK describes Command and Control as the stage where adversaries communicate with systems under their control, often embedding commands and results inside normal protocol traffic. In practice, modern C2 also commonly relies on encryption, resilient infrastructure, and mechanisms to maintain communications if one path is blocked."
-    },   
+    },
     {
         "instruction": "How does the modern command and control (C2) work?",
         "input": "",
         "output": "Modern C2 works by having malware or another implanted component periodically contact attacker-controlled or attacker-abused infrastructure to receive instructions and send back status or results. MITRE notes that adversaries often use application-layer protocols, including web traffic and DNS, so communications blend into ordinary network activity rather than looking obviously malicious. This means modern C2 is less about one obvious “controller server” and more about hiding malicious coordination inside common digital communication patterns."
-    },   
+    },
     {
         "instruction": "What data does the command and control (C2) collect?",
         "input": "",
         "output": "A C2 channel commonly collects host identity details, system status, execution results, credential material, discovered network information, and data selected for exfiltration. MITRE specifically notes that adversaries may exfiltrate stolen data over an existing C2 channel by encoding it into the same communications path used for command traffic. In real incidents, the exact data depends on the operator’s objective, such as espionage, financial theft, lateral movement, or follow-on ransomware deployment."
-    },  
+    },
     {
         "instruction": "What are the data collection techniques of command and control (C2)?",
         "input": "",
         "output": "Command and control data collection techniques are the methods malware or an intruder uses to gather information from a compromised system and send it back through the C2 channel. These techniques commonly include collecting system information, user and host details, network configuration, process and service data, credentials, keystrokes, screenshots, files, and the results of commands executed on the infected device. In modern intrusions, the collected data is often packaged, encoded, or compressed and then transmitted through the same communication path used for command traffic so the attacker can centrally manage multiple compromised systems."
-    },   
+    },
     {
         "instruction": "How is the command and control (C2) bypassing security mechanisms?",
         "input": "",
         "output": "Command and control can bypass security mechanisms by making its communications look less suspicious and harder to distinguish from normal network activity. It often does this by blending into commonly used protocols or services, using encrypted traffic, relying on trusted or compromised systems, and spreading activity in a way that avoids drawing immediate attention. The main idea is that the C2 channel is designed to stay operational by reducing visibility and making malicious communications appear routine enough to avoid quick detection or blocking."
-    },   
+    },
     {
         "instruction": "How does the botnet work?",
         "input": "",
         "output": "A botnet works by infecting multiple internet-connected devices with malware that allows a remote operator to control them as a coordinated group. NIST defines a botnet as a network of compromised machines that criminals remotely manage, while CISA materials describe bot clients running malicious software under the direction of a botmaster or botherder. Once assembled, the botnet can be used for activities such as DDoS, spam, fraud, malware delivery, or broader criminal campaigns."
-    },  
+    },
     {
         "instruction": "What are the key components of botnet?",
         "input": "",
         "output": "The key components of a botnet are the bot malware, the infected devices or bots, the command-and-control mechanism, and the operator who issues instructions. CISA’s technical information paper and NIST’s glossary both describe this structure in terms of compromised clients, malicious code, and remote management by a botmaster. In modern botnets, the infrastructure may also include relays, peer-to-peer elements, and automation that help scale operations and improve resilience."
-    },   
+    },
     {
         "instruction": "How is the botnet bypassing security mechanisms?",
         "input": "",
         "output": "A botnet can bypass security mechanisms by making its traffic, behavior, or communications appear less suspicious and more similar to legitimate system or network activity. It may rely on distributed activity across many infected devices, encrypted or disguised communications, trusted services, or constantly changing infrastructure so blocking one part does not stop the whole botnet. The main idea is that a botnet stays active by reducing visibility, avoiding simple detection patterns, and making its malicious operations harder to isolate quickly."
-    },   
+    },
     {
         "instruction": "How does the modern botnet work?",
         "input": "",
         "output": "Modern botnets work at greater speed and scale by combining automated infection, flexible C2 models, and shared criminal infrastructure across large numbers of computers, servers, mobile devices, or IoT systems. Recent 2026 threat reporting describes the industrialization of botnets, where automation and shared resources allow operators to outpace traditional patching and response cycles. This means a modern botnet is not just a cluster of infected PCs, but a scalable attack platform that can support many different criminal objectives."
-    },   
+    },
     {
         "instruction": "What is the meaning of polymorphic code?",
         "input": "",
@@ -698,47 +698,47 @@
         "instruction": "What is Windows?",
         "input": "",
         "output": "Windows is Microsoft’s operating system platform for personal computers and many enterprise devices. It provides the core software layer that lets applications run, manages hardware resources, and offers interfaces for files, settings, networking, and security. Microsoft’s current architecture documentation describes Windows as an operating system with both user-mode and kernel-mode components working together."
-    },   
+    },
     {
         "instruction": "What are the most used Windows versions?",
         "input": "",
         "output": "The most used desktop Windows versions today are Windows 11 and Windows 10. Statcounter’s worldwide desktop Windows version data for March 2026 shows Windows 11 at 67.14% market share and Windows 10 at 31.27%, with older versions far behind. Microsoft also notes that support for Windows 10 ended on October 14, 2025, even though it remains widely used."
-    },   
+    },
     {
         "instruction": "What are the key components of Windows?",
         "input": "",
         "output": "The key components of Windows are its user-mode components, kernel-mode components, drivers, and the supporting system services that connect software to hardware. Microsoft’s architecture overview says Windows includes both user-mode and kernel-mode components, while its mode overview explains that applications run in user mode and core operating system components function in kernel mode. In simple terms, the key components of Windows are the applications users interact with, the core operating system that manages the computer, and the drivers and services that connect everything together."
-    },  
+    },
     {
         "instruction": "What are the most vulnerable parts of Windows?",
         "input": "",
         "output": "The parts of Windows most often exposed to serious security issues are usually the kernel and kernel subsystems, drivers, shell-related components, document-handling components such as Office integrations, and internet-facing or high-privilege services. Recent examples from Microsoft and CISA include active exploitation involving the Windows Common Log File System kernel driver, Windows Shell, and Microsoft Office security-feature bypass vulnerabilities. Overall, the most vulnerable parts of Windows are usually the components that attackers target most often, especially those connected to system privileges, file processing, drivers, and features that interact directly with users."
-    },   
+    },
     {
         "instruction": "What is Windows registry?",
         "input": "",
         "output": "The Windows Registry is a central hierarchical database that stores configuration information for Windows, hardware, users, applications, and services. Microsoft describes it as a system-defined database in which applications and system components store and retrieve configuration data, and it also notes that the registry is critical for Windows operation. In practice, the registry is one of the main places Windows keeps settings that shape system and application behavior."
-    },   
+    },
     {
         "instruction": "What are the key components of Windows registry?",
         "input": "",
         "output": "The key components of the Windows Registry are hives, keys, subkeys, and values. Microsoft explains that the registry is structured like a tree, where each node is a key, keys can contain subkeys, and the data entries inside them are called values. It also defines a hive as a logical group of keys, subkeys, and values backed by supporting files and loaded when Windows starts or when a user signs in."
-    },  
+    },
     {
         "instruction": "What is system32 in Windows?",
         "input": "",
         "output": "System32 is a core Windows system directory, usually located at C:\\Windows\\System32. It contains many essential operating system files that Windows depends on to boot, run core functions, and support system tools and services. Microsoft’s registry documentation also notes that many important registry hive support files are stored under %SystemRoot%\\System32\\Config, which highlights how central the System32 path is to Windows itself."
-    },   
+    },
     {
         "instruction": "What are the key components of system32 in Windows?",
         "input": "",
         "output": "The key components of System32 are the operating system files stored there, including core executables, libraries, drivers, configuration-related files, and built-in administrative tools. Microsoft’s documentation specifically points to %SystemRoot%\\System32\\Config as the location for many registry hive support files, which shows that System32 contains core configuration data in addition to executable system content. In practical terms, System32 is a central storage area for Windows components that the operating system needs to function correctly."
-    },   
+    },
     {
         "instruction": "What is File Explorer in Windows?",
         "input": "",
         "output": "File Explorer is the built-in Windows file manager. Microsoft says it helps users find, open, organize, and manage files and folders on the PC and in the cloud. It is the main interface most users use to browse drives, folders, documents, and connected storage in Windows."
-    },   
+    },
     {
         "instruction": "What are the key components of File Explorer in Windows?",
         "input": "",
@@ -748,47 +748,47 @@
         "instruction": "What is Linux?",
         "input": "",
         "output": "Linux is an open-source, Unix-like operating system platform built around the Linux kernel. The Linux kernel documentation describes the kernel as a widely used operating system component that runs on systems ranging from small devices to desktop PCs and supercomputers. In common use, “Linux” usually refers to a full operating system made by combining the Linux kernel with user-space tools, libraries, and distribution-specific software."
-    },   
+    },
     {
         "instruction": "What are the most used Linux distros?",
         "input": "",
         "output": "The most used Linux distributions vary by audience, but recent developer-survey data shows Ubuntu as the most widely used Linux operating system among respondents, followed by Debian, with Arch and Fedora also widely used. In Stack Overflow’s 2025 Developer Survey, Ubuntu was reported at 27.8% personal use and 27.7% professional use, Debian at 11.4% personal and 10.4% professional use, Arch at 9.7% personal use, and Fedora at 5.8% personal and 3.7% professional use. These figures reflect developer usage rather than the entire Linux market, but they are one of the clearest current public snapshots of distro popularity."
-    },   
+    },
     {
         "instruction": "What are the key components of Linux?",
         "input": "",
         "output": "The key components of Linux are the kernel, shell, system libraries, system utilities, and the supporting software that makes up a distribution. The kernel provides the core operating system functions, while utilities and libraries provide the tools and interfaces users and applications rely on. In simple terms, Linux is built from the kernel at the center plus the command environment, software-management tools, and system programs around it."
-    },  
+    },
     {
         "instruction": "What is Linux used for?",
         "input": "",
         "output": "Linux is used for servers, cloud systems, embedded devices, development workstations, networking equipment, and supercomputers. The kernel documentation says Linux runs on systems ranging from pocket-sized devices to desktop PCs and the largest supercomputers, which reflects its broad deployment range. In practice, Linux is valued for flexibility, stability, customization, and strong support for development and infrastructure workloads."
-    },   
+    },
     {
         "instruction": "What are the most vulnerable parts of Linux?",
         "input": "",
         "output": "The most vulnerable parts of Linux are usually the components that attackers target most often, especially the kernel, privileged services, network-facing software, package-managed applications, and misconfigured permissions or authentication paths. Because the kernel controls memory, processes, and hardware access, serious kernel flaws can have major impact, while exposed services and high-privilege software often create the most practical attack opportunities. Overall, Linux risk is usually driven less by one single folder or feature and more by the combination of privileged code, exposed services, and configuration weaknesses."
-    },   
+    },
     {
         "instruction": "What is Linux kernel?",
         "input": "",
         "output": "The Linux kernel is the core operating system component of Linux. The Linux kernel documentation describes it as a robust, efficient, and scalable operating system component used across many types of systems. It is responsible for essential low-level tasks such as hardware interaction, process management, memory management, and device support."
-    },  
+    },
     {
         "instruction": "What is a bootloader in Linux?",
         "input": "",
         "output": "A bootloader in Linux is the software that starts during boot and loads the Linux kernel so the operating system can begin running. Debian’s installation and system-initialization documentation treats boot loading as the stage that prepares the system to hand control to the kernel. In simple terms, the bootloader bridges the gap between firmware startup and the Linux operating system itself."
-    },   
+    },
     {
         "instruction": "What is a shell in Linux?",
         "input": "",
         "output": "A shell in Linux is a command-line interface that lets users interact with the operating system by running commands and scripts. Debian’s reference documentation uses shell-command examples throughout system administration guidance, reflecting the shell’s role as a primary interface for managing Linux systems. In practical use, the shell is both an interactive command environment and a scripting tool for automation."
-    },   
+    },
     {
         "instruction": "What is a package manager in Linux?",
         "input": "",
         "output": "A package manager in Linux is the system used to install, update, remove, and track software packages from configured repositories or package sources. Red Hat defines package management as the method of installing, updating, removing, and keeping track of software from specific repositories, and Debian identifies APT as the core of its package management system. In short, a package manager is the Linux toolset that keeps software organized and maintained across the system."
-    },   
+    },
     {
         "instruction": "What are the system utilities in Linux?",
         "input": "",
@@ -798,47 +798,47 @@
         "instruction": "What is Android?",
         "input": "",
         "output": "Android is an open-source, Linux-based software stack created for a wide array of devices and form factors. Google’s Android platform documentation describes it as a complete software stack whose major platform components work together to support apps and device features. In common use, Android usually refers to the mobile operating system used on phones, tablets, TVs, cars, wearables, and other connected devices."
-    },   
+    },
     {
         "instruction": "What are the most used Android versions?",
         "input": "",
         "output": "The most used Android versions worldwide currently are Android 16, Android 15, and Android 13, based on recent March 2026 market-share data. Statcounter reports Android 16 at 21.61%, Android 15 at 20.16%, and Android 13 at 14.45% worldwide, with Android 14 close behind at 13.8%. Google’s current platform pages also show Android 16 as the current stable generation and Android 17 as the current beta line, which fits the present rollout timeline."
-    },   
+    },
     {
         "instruction": "What are the key components of Android?",
         "input": "",
         "output": "The key components of Android include the Linux kernel, hardware abstraction layer, native libraries, Android Runtime, application framework, and system apps. Google’s platform architecture documentation presents these as the major layers of the Android platform, with each layer providing services to the layers above it. In app development, Android also relies on four core app component types: activities, services, broadcast receivers, and content providers."
-    },  
+    },
     {
         "instruction": "What is Android used for?",
         "input": "",
         "output": "Android is used to run applications and services on many device types, including phones, tablets, TVs, cars, wearables, and foldables. Google’s Android platform documentation states that Android is built for a wide array of devices and form factors, and current Android 16 documentation highlights productivity, media, camera, tablet, and foldable use cases. In practical terms, Android is used both as a consumer operating system and as a software platform for developers and device manufacturers."
-    },   
+    },
     {
         "instruction": "What are the most vulnerable parts of Android?",
         "input": "",
         "output": "The most vulnerable parts of Android are usually the components most often targeted by attackers or affected in security bulletins, especially the system, framework, kernel, privileged apps, and data-sharing surfaces between apps. Google’s Android Security Bulletins regularly include vulnerabilities in framework and system components, and Android’s security guidance specifically warns that app data storage and content providers are common security concern areas. Overall, the most exposed parts of Android are usually the components tied to high privilege, inter-app communication, and sensitive data handling."
-    },   
+    },
     {
         "instruction": "What are the activities in Android?",
         "input": "",
         "output": "An activity in Android is an app component that provides a screen with which the user can interact. Google’s app fundamentals documentation identifies activities as one of the four core Android app component types and explains that each one serves as an entry point for user interaction. In simple terms, an activity usually represents a single focused screen or user task inside an Android app."
-    },  
+    },
     {
         "instruction": "What are the services in Android?",
         "input": "",
         "output": "A service in Android is an app component that can perform long-running operations in the background without providing a user interface. Google’s app fundamentals documentation lists services as one of the four main Android app components and distinguishes them from activities by their background role. In practice, services are used for tasks such as playback, syncing, or other operations that should continue even when the user is not actively looking at the app screen."
-    },   
+    },
     {
         "instruction": "What are the broadcast receivers in Android?",
         "input": "",
         "output": "A broadcast receiver in Android is an app component that responds to broadcast messages from the Android system or from other apps. Google explains that broadcasts follow a publish-subscribe style pattern and are commonly used for events such as boot completion, charging changes, or app-defined notifications. In simple terms, broadcast receivers let apps react when something important happens elsewhere in the system or ecosystem."
-    },   
+    },
     {
         "instruction": "What are the content providers in Android?",
         "input": "",
         "output": "A content provider in Android is an app component that manages structured access to data and can share that data with other apps. Google’s content provider documentation says content providers encapsulate data, define mechanisms for data security, and serve as the standard interface connecting data in one process with code in another process. In practice, content providers are used when an app needs to expose or control shared access to stored information in a consistent way."
-    },   
+    },
     {
         "instruction": "What is Android Runtime (ART)?",
         "input": "",
@@ -848,47 +848,47 @@
         "instruction": "What is the meaning of authentication?",
         "input": "",
         "output": "Authentication is the process of verifying that a user, device, or process is really who or what it claims to be. NIST defines it as verifying the identity of a user, process, or device, often as a prerequisite to allowing access to system resources. In practice, authentication answers the question, “Who are you.”."
-    },   
+    },
     {
         "instruction": "What is the meaning of authorization?",
         "input": "",
         "output": "Authorization is the process of deciding what an authenticated user, service, or device is allowed to access or do. NIST describes authorization as a right or permission granted to a system entity to access a system resource, while Microsoft describes it as granting an authenticated party permission to do something. In practice, authorization answers the question, “What are you allowed to do.”."
-    },   
+    },
     {
         "instruction": "What is the meaning of reverse engineering?",
         "input": "",
         "output": "Reverse engineering in cybersecurity means analyzing software, binaries, or malicious code to understand how they work internally. NIST describes malware code analysis as the act of reverse-engineering a malicious program to understand the code that implements its behavior, often using tools such as disassemblers, debuggers, and decompilers. More broadly, reverse engineering is used to study software logic, uncover vulnerabilities, verify functionality, or understand malicious behavior."
-    },  
+    },
     {
         "instruction": "What is the meaning of defense evasion?",
         "input": "",
         "output": "Defense evasion is the set of techniques adversaries use to avoid detection or bypass security controls during an intrusion. MITRE ATT&CK defines Defense Evasion as techniques adversaries use to avoid detection throughout their compromise, including disabling security tools, obfuscating data and scripts, and abusing trusted processes. In practical terms, defense evasion is about staying hidden long enough to keep operating inside the target environment."
-    },   
+    },
     {
         "instruction": "What is the meaning of detection and monitoring?",
         "input": "",
         "output": "Detection and monitoring in cybersecurity mean watching systems, networks, accounts, and events in order to identify suspicious or malicious activity. CISA’s logging and threat-detection guidance describes centralized logging and monitoring as a way to identify users, observe events, and support proactive threat detection, while Cybersecurity Framework monitoring guidance focuses on monitoring systems and assets to detect potential cybersecurity events. In practice, detection and monitoring are the visibility functions that help defenders notice incidents, investigate them, and respond in time."
-    },   
+    },
     {
         "instruction": "What is the meaning of cryptography?",
         "input": "",
         "output": "Cryptography is the science of protecting and verifying information using mathematical methods, protocols, and algorithms. NIST defines it as the science of information hiding and verification, including methods to prevent unauthorized access and support goals such as confidentiality, integrity, authentication, and source authentication. In simple terms, cryptography is what makes secure encryption, digital signatures, and many other security mechanisms possible."
-    },  
+    },
     {
         "instruction": "What is the meaning of containers?",
         "input": "",
         "output": "Containers are a method for packaging and securely running an application together with what it needs inside an application virtualization environment. NIST defines a container as a method for packaging and securely running an application within an application virtualization environment, and Docker describes a container as a standard unit of software that packages code and dependencies so it runs reliably across environments. In practice, containers make applications more portable, consistent, and easier to deploy."
-    },   
+    },
     {
         "instruction": "What is the meaning of virtualization?",
         "input": "",
         "output": "Virtualization is a method of abstracting or emulating computing hardware so software can run in virtual rather than directly physical environments. NIST defines it as a methodology for emulation or abstraction of hardware resources that enables complete execution stacks, including software applications, to run on it. In practical terms, virtualization allows one physical machine to host multiple isolated operating systems or workloads more efficiently."
-    },   
+    },
     {
         "instruction": "What is Docker?",
         "input": "",
         "output": "Docker is a platform for developing, shipping, and running applications using containers. Docker’s official documentation describes it as an open platform that lets developers separate applications from infrastructure so software can be delivered more quickly and consistently. In practice, Docker is widely used to build, package, test, and run containerized applications across development and production environments."
-    },   
+    },
     {
         "instruction": "What is Kubernetes?",
         "input": "",
@@ -898,47 +898,47 @@
         "instruction": "How are hackers bypassing 2FA?",
         "input": "",
         "output": "Hackers most commonly bypass two-factor authentication by phishing the login in real time, stealing the authenticated session after the user completes 2FA, or abusing weaker second factors such as SMS, push prompts, or voice-based recovery flows. Recent Microsoft and CISA-linked reporting highlights adversary-in-the-middle phishing, push-bombing, SIM-swap abuse, and device-code style tricks as common ways attackers get around traditional 2FA without “breaking” the factor itself. In practice, the weakness is often not the idea of 2FA, but the fact that some forms of 2FA can still be socially engineered or bypassed after authentication succeeds."
-    },   
+    },
     {
         "instruction": "How are hackers bypassing MFA?",
         "input": "",
         "output": "Hackers bypass MFA in many of the same ways because 2FA is just a subset of MFA, especially through real-time phishing proxies, token theft, and abuse of trusted login workflows. Microsoft notes that adversary-in-the-middle attacks can capture both credentials and session information, while newer phishing campaigns also abuse device-code and help-desk style social engineering to obtain authenticated access. The current trend is that attackers increasingly target the authentication flow around MFA rather than trying to defeat cryptography directly."
-    },   
+    },
     {
         "instruction": "How are hackers stealing session cookies?",
         "input": "",
         "output": "Hackers steal session cookies by compromising the browser or device, intercepting traffic in unsafe conditions, or using phishing pages and malicious scripts that capture session tokens after login. OWASP explains that session hijacking happens when an attacker compromises a valid session token, including through client-side attacks, man-in-the-middle interception, predictable session identifiers, or exposed cookies. Google’s recent device-bound session work also reflects the current threat reality that stolen cookies are valuable because they can let attackers reuse an authenticated session without re-entering a password or MFA code."
-    },  
+    },
     {
         "instruction": "What are the most common social engineering tactics?",
         "input": "",
         "output": "The most common social engineering tactics include phishing, vishing, smishing, pretexting, impersonation, baiting, and urgent fake requests that pressure the target into acting quickly. CISA and the FBI both describe these attacks as manipulations of trust, fear, urgency, or authority to get someone to click, disclose information, send money, or grant access. Recent FBI warnings also show that text-message impersonation, voice scams, and official-looking outreach remain common and effective tactics in current campaigns."
-    },   
+    },
     {
         "instruction": "What are the key components of social engineering?",
         "input": "",
         "output": "The key components of social engineering are a believable pretext, a trusted or urgent communication channel, psychological manipulation, and a desired victim action such as revealing information, clicking a link, or approving access. CISA describes social engineering as using human interaction and social skills to obtain or compromise information, while FTC scam guidance shows that pressure, unusual payment demands, and surprise contact are common ingredients. In simple terms, social engineering works by combining credibility, emotion, and timing to make the victim act against their own interests."
-    },   
+    },
     {
         "instruction": "What are the most common phishing tactics?",
         "input": "",
         "output": "The most common phishing tactics include fake login pages, malicious links, spoofed domains, attachment-based lures, SMS phishing, voice phishing, and impersonation of trusted organizations or officials. The FBI specifically highlights phishing, vishing, smishing, and pharming as recurring variants, while CISA defines phishing as a form of social engineering that lures victims to malicious sites or tricks them into providing information. Current campaigns also increasingly use multi-channel delivery, with email, text, and voice messages reinforcing the same deception."
-    },  
+    },
     {
         "instruction": "What are the key components of phishing?",
         "input": "",
         "output": "The key components of phishing are impersonation, a lure, a delivery channel, and a target action such as entering credentials, opening an attachment, or sending money. CISA’s phishing guidance describes phishing as a social-engineering attack that lures victims to malicious sites or deceives them into providing sensitive information, while the FBI emphasizes spoofed communications and fake websites designed to steal data. In practice, phishing depends on making the request look familiar enough that the victim completes the attacker’s intended step."
-    },   
+    },
     {
         "instruction": "What is the meaning of scamming?",
         "input": "",
         "output": "Scamming is the use of deception to trick a person or organization into giving up money, personal data, account access, or some other valuable asset. FTC and FBI guidance both frame scams as manipulative schemes that rely on false claims, impersonation, urgency, or emotional pressure rather than honest transactions. In simple terms, a scam is fraud carried out through lies designed to make the victim cooperate willingly."
-    },   
+    },
     {
         "instruction": "What are the most common scamming tactics?",
         "input": "",
         "output": "The most common scamming tactics include impersonation, urgency, secrecy, pressure to pay quickly, requests for unusual payment methods, romance and investment fraud, tech-support fraud, and business email compromise. FTC scam alerts say common warning signs include unexpected contact, demands to hurry, and instructions to pay by gift card, wire transfer, cryptocurrency, cash, or payment app, while the FBI’s 2025 IC3 report says investment fraud, business email compromise, and tech-support scams remain leading loss categories. Current scam activity also increasingly uses text messages, AI-assisted impersonation, and cross-channel communication to make the deception more believable."
-    },   
+    },
     {
         "instruction": "What are the key components of scamming?",
         "input": "",
@@ -948,97 +948,97 @@
         "instruction": "What is cloud?",
         "input": "",
         "output": "Cloud, or cloud computing, is a model for delivering computing resources such as servers, storage, applications, and services over a network on demand. NIST defines cloud computing as convenient, on-demand network access to a shared pool of configurable resources that can be rapidly provisioned and released with minimal management effort. In simple terms, the cloud lets users consume IT resources as a service instead of owning all the underlying infrastructure themselves."
-    },   
+    },
     {
         "instruction": "What is the cloud used for?",
         "input": "",
         "output": "The cloud is used for running applications, storing data, hosting websites, analytics, databases, backup, disaster recovery, AI workloads, and software development. AWS describes cloud computing as on-demand delivery of IT resources such as compute power, storage, databases, and applications over the internet with pay-as-you-go pricing. In practice, organizations use the cloud to scale faster, reduce upfront infrastructure costs, and deploy services globally."
-    },   
+    },
     {
         "instruction": "What are the most used cloud services?",
         "input": "",
         "output": "The most widely used cloud infrastructure platforms today are Amazon Web Services, Microsoft Azure, and Google Cloud. Recent market-share reporting for Q4 2025 shows those three providers still holding the clear global lead in cloud infrastructure services, with AWS first, Azure second, and Google Cloud third. These are the dominant public-cloud platforms used for compute, storage, databases, networking, and many managed cloud services."
-    },  
+    },
     {
         "instruction": "What are the key components of cloud?",
         "input": "",
         "output": "The key components of cloud include shared computing resources, networking, storage, applications, service delivery models, and deployment models. NIST says the cloud model is composed of five essential characteristics, three service models, and four deployment models. In simple terms, the cloud is built from pooled infrastructure plus the service layers and access models used to deliver it."
-    },   
+    },
     {
         "instruction": "What are the most vulnerable parts of cloud?",
         "input": "",
         "output": "The most vulnerable parts of cloud environments are usually identity and access management, exposed storage, misconfigured services, internet-facing applications, APIs, and weak security settings. OWASP continues to treat security misconfiguration as a major web-application risk, and cloud security guidance consistently shows that poor configuration and overexposed access paths create major attack opportunities. Overall, cloud risk is usually highest where high privilege, public exposure, and misconfiguration meet."
-    },   
+    },
     {
         "instruction": "What is a remote server?",
         "input": "",
         "output": "A remote server is a server system that is accessed over a network rather than used directly at the physical machine. In cloud environments, remote servers provide computing resources and services from provider-managed infrastructure that users can access through the internet or private network connections. In simple terms, a remote server is a computer somewhere else that runs workloads or stores data for you."
-    },  
+    },
     {
         "instruction": "What is cloud storage?",
         "input": "",
         "output": "Cloud storage is a service that stores digital data on provider-managed infrastructure and makes it accessible over a network. AWS explains cloud computing as including on-demand storage delivered through a cloud services platform rather than requiring organizations to maintain all storage hardware themselves. In practice, cloud storage is used for files, backups, archives, application data, and large-scale object storage."
-    },   
+    },
     {
         "instruction": "What is a streaming service?",
         "input": "",
         "output": "A streaming service is an online service that delivers audio, video, or other media continuously over the internet so users can play it without downloading the entire file first. Streaming services rely on networked applications, storage, and server infrastructure to deliver content on demand to many users. In practical terms, they are web-connected platforms for consuming media in real time or near real time."
-    },   
+    },
     {
         "instruction": "What is web application?",
         "input": "",
         "output": "A web application is a software application that runs on a web server and is accessed through a web browser. It allows users to interact with features, data, and services over a network without needing to install the application in the same way as traditional desktop software. In simple terms, a web application is an interactive program delivered through the web that users can open and use from a browser."
-    },   
+    },
     {
         "instruction": "What is Amazon Web Services (AWS)?",
         "input": "",
         "output": "Amazon Web Services, or AWS, is Amazon’s cloud computing platform. AWS describes itself as a broad and widely adopted cloud platform that provides services such as compute, storage, databases, networking, analytics, and AI on global infrastructure. In simple terms, AWS is a major public-cloud provider that organizations use to build, host, and scale digital systems and applications."
     },
-      {
+    {
         "instruction": "What is an infostealer?",
         "input": "",
         "output": "An infostealer is malware designed to collect and exfiltrate sensitive information from an infected device. Microsoft’s recent threat reporting describes infostealers such as Lumma as malware capable of stealing data from browsers, applications, and cryptocurrency wallets, and in some cases installing additional malware. In practical terms, an infostealer is built to harvest valuable digital information such as credentials, tokens, wallet data, and other user or system data for criminal use."
-    },   
+    },
     {
         "instruction": "What are the key components of infostealer?",
         "input": "",
         "output": "The key components of an infostealer usually include a collection module, targeting logic for valuable data sources, local execution on the victim device, and an exfiltration path to send stolen data back to the operator. Microsoft’s Lumma analysis shows modern infostealers commonly focus on browsers, applications, and cryptocurrency wallets, which reflects the main categories of data they are engineered to collect. Many modern infostealers also include command-and-control connectivity and, in some cases, the ability to install or facilitate additional malware."
-    },   
+    },
     {
         "instruction": "What is a keylogger?",
         "input": "",
         "output": "A keylogger is a program designed to record which keys are pressed on a keyboard. NIST defines a key logger as a program used to obtain passwords or encryption keys and thus bypass other security measures. In simple terms, a keylogger captures typed input so an attacker can later recover sensitive information entered by the victim."
-    },  
+    },
     {
         "instruction": "What are the key components of keylogger?",
         "input": "",
         "output": "The key components of a keylogger are a mechanism to capture keystrokes, a way to store or package the captured data, and a method to retrieve or transmit that data. NIST’s definition focuses on the core function of recording keyboard input to obtain passwords or encryption keys, which reflects the central design purpose of keylogging. In practice, a keylogger may also include persistence and stealth features, but its defining components are input capture, data retention, and attacker access to the recorded content."
-    },   
+    },
     {
         "instruction": "What is the meaning of malvertising?",
         "input": "",
         "output": "Malvertising means the malicious use of online advertising to expose users to harmful content, redirects, or downloads. Microsoft defines malvertising as the malicious use of Internet ads, including hacked or deceptive ads that send users to problematic sites or downloads. Recent Microsoft threat reporting also shows malvertising continuing to be used at scale to direct victims toward infostealer infections and other malware delivery chains."
-    },   
+    },
     {
         "instruction": "What are the key components of malvertising?",
         "input": "",
         "output": "The key components of malvertising are a malicious or compromised ad, a delivery path through an advertising or web ecosystem, and a destination or follow-on action that benefits the attacker. Microsoft’s definition emphasizes injected or deceptive ads that redirect users to harmful sites or downloads, which captures the basic structure of a malvertising chain. In recent campaigns, those chains have included redirectors, intermediary sites, and hosting platforms used to deliver infostealers or other malicious payloads."
-    },  
+    },
     {
         "instruction": "What is the meaning of steganography?",
         "input": "",
         "output": "Steganography is the art and science of hiding the existence of a communication by embedding data within other data. NIST defines it as communicating in a way that hides the existence of the communication, and also describes it as embedding data within other data to conceal it. In practical terms, steganography hides a secret message inside an ordinary-looking file such as an image, audio file, or other digital object."
-    },   
+    },
     {
         "instruction": "What are the key components of steganography?",
         "input": "",
         "output": "The key components of steganography are the hidden data, the carrier or cover medium that conceals it, and the method used to embed and later recover the concealed information. NIST’s descriptions make clear that the central idea is placing one set of data inside another so the communication itself is hidden from view. In simple terms, steganography needs something to hide, something to hide it inside, and a technique that makes the hidden content difficult to notice."
-    },   
+    },
     {
         "instruction": "What is the meaning of trojanized software?",
         "input": "",
         "output": "Trojanized software is software that appears legitimate or desirable but has been modified or packaged to include malicious functionality. Recent CISA and Microsoft reporting continues to show attackers disguising malicious payloads as trusted software such as browser installers, updates, or development-related content in order to gain execution on victim devices. In practical terms, trojanized software is a deceptive delivery method that uses the appearance of normal software to get malware onto a system."
-    },   
+    },
     {
         "instruction": "What are the key components of trojanized software?",
         "input": "",
@@ -1048,47 +1048,47 @@
         "instruction": "What is a fake website?",
         "input": "",
         "output": "A fake website is a fraudulent site designed to imitate a legitimate brand, service, or organization in order to deceive visitors. Recent Microsoft reporting shows phishing actors continuing to use spoofed domains and lookalike web infrastructure to make malicious pages appear trustworthy and collect credentials or other sensitive information. In practical terms, a fake website is built to look real enough that the victim interacts with it as if it were the genuine site."
-    },   
+    },
     {
         "instruction": "What are the key components of fake website?",
         "input": "",
         "output": "The key components of a fake website usually include a convincing visual imitation of a real site, a spoofed or lookalike domain or page path, and a mechanism to capture data, payments, or logins. Current phishing reporting shows that these sites often rely on impersonated branding, realistic page layout, and trust signals that make the page appear legitimate at first glance. In simple terms, a fake website combines deceptive appearance, a believable web address or route, and a target action that benefits the scammer."
-    },   
+    },
     {
         "instruction": "What is a fake application?",
         "input": "",
         "output": "A fake application is software that pretends to be legitimate, useful, or official but is actually designed to deceive the user or carry out unauthorized actions. Google’s 2025 Android ecosystem reporting says it blocked more than 1.75 million policy-violating apps and over 80,000 bad developer accounts, showing that harmful and deceptive apps remain a major real-world problem. In practice, a fake application may impersonate a real service, promise a desirable function, or hide malware, fraud, or abusive behavior behind a normal-looking app interface."
-    },  
+    },
     {
         "instruction": "What are the key components of fake application?",
         "input": "",
         "output": "The key components of a fake application are a legitimate-looking name or branding, a believable function or promise, and hidden malicious, deceptive, or policy-violating behavior. Google’s app-safety reporting shows that harmful apps are often stopped before publication because they cause real-world harm such as malware and financial fraud, which reflects the core design pattern behind fake apps. In simple terms, a fake application combines trusted appearance, misleading purpose, and concealed harmful activity."
-    },   
+    },
     {
         "instruction": "What are the current scam and fraud trends?",
         "input": "",
         "output": "Current scam and fraud trends include investment and cryptocurrency fraud, business email compromise, tech-support scams, account-takeover scams, text-message scams, sextortion, and increasingly sophisticated AI-assisted deception. The FBI’s 2025 IC3 report says investment-related fraud remained the largest loss category, followed by business email compromise and tech-support scams, while INTERPOL’s 2026 assessment highlights hybrid tactics, global scam centres, and a rise in sextortion. The broader trend is that fraud is becoming more industrialized, more personalized, and more convincing across email, text, social media, voice, and payment channels."
-    },   
+    },
     {
         "instruction": "How are cybercriminals laundering money?",
         "input": "",
         "output": "Cybercriminals launder money by moving illicit proceeds through layered transactions and intermediaries so the funds become harder to trace back to the original crime. Recent FATF reporting says criminals exploit virtual assets and cross-border digital finance because these systems can make movement of value faster, more fragmented, and harder to supervise when controls are weak. At a high level, the goal is to disguise the source, ownership, or control of criminal proceeds so they can be spent or reintegrated with less suspicion."
-    },  
+    },
     {
         "instruction": "What is a shell company?",
         "input": "",
         "output": "A shell company is a legal entity that has little or no real business operations, employees, or significant assets of its own. FinCEN’s beneficial-ownership rulemakings and AML guidance treat shell-company opacity as a serious risk because legal entities can be used to obscure the real people behind transactions and assets. In practical terms, a shell company can be legitimate in some contexts, but it is also a well-known vehicle for concealing ownership and moving suspicious funds."
-    },   
+    },
     {
         "instruction": "What are the key components of shell company?",
         "input": "",
         "output": "The key components of a shell company are a legal corporate structure, little or no substantial operating activity, and limited transparency about the true beneficial owner or controller. AML authorities focus on these entities because the corporate form can give a transaction a lawful appearance while hiding who actually benefits from it. In simple terms, a shell company combines formal legal existence with minimal real business substance and reduced ownership visibility."
-    },   
+    },
     {
         "instruction": "What is the meaning of account takeover?",
         "input": "",
         "output": "Account takeover is unauthorized access to and control over an existing user account by someone other than the legitimate owner. The OCC’s 2025 cybersecurity report says cybercriminals use multiple methods to gain unauthorized access to or otherwise take over customer accounts, often beginning with phishing and stolen credentials. In practice, account takeover is a form of identity and fraud abuse in which the attacker hijacks a real account instead of creating a new fake one."
-    },   
+    },
     {
         "instruction": "What are the key components of account takeover?",
         "input": "",
@@ -1098,47 +1098,47 @@
         "instruction": "What is a digital certificate?",
         "input": "",
         "output": "A digital certificate is an electronic credential that binds an identity to a public key and is used to support authentication, encryption, or digital signatures. NIST describes certificates in the public-key context as data structures that associate a subject with a public key, typically within a public key infrastructure. In practical terms, a digital certificate helps other systems verify who they are communicating with and whether a cryptographic key should be trusted."
-    },   
+    },
     {
         "instruction": "What are the most common digital certificates?",
         "input": "",
         "output": "The most common digital certificate categories are TLS/SSL certificates for websites and servers, code-signing certificates for software, and client or user certificates for identity-based authentication. Industry PKI references also commonly include email-signing certificates and document-signing certificates as widely used certificate types. In practice, TLS certificates are the most visible to ordinary users, while code-signing and client certificates are especially important in enterprise and software-security workflows."
-    },   
+    },
     {
         "instruction": "What are the key components of digital certificate?",
         "input": "",
         "output": "The key components of a digital certificate typically include the subject identity, the subject’s public key, the issuer identity, validity dates, serial number, and the issuer’s digital signature. Certificate formats also commonly include information about intended usage, cryptographic algorithms, and trust-chain details that help relying systems validate the certificate. In simple terms, a certificate needs identity information, key information, time limits, and proof that a trusted issuer signed it."
-    },  
+    },
     {
         "instruction": "What is the meaning of hashing in cyber security?",
         "input": "",
         "output": "Hashing in cybersecurity is the process of applying a mathematical algorithm to data to produce a fixed-size value that represents that data. NIST defines hashing as using a mathematical algorithm against data to produce a numeric value representative of that data. In practice, hashing is used for integrity checking, secure password storage workflows, digital signatures, and many other security functions."
-    },   
+    },
     {
         "instruction": "What is a hashing algorithm?",
         "input": "",
         "output": "A hashing algorithm is a mathematical function that maps input data of arbitrary length to a fixed-length output often called a hash value or message digest. NIST states that a hash algorithm is used to map a message of arbitrary length to a fixed-length message digest. In simple terms, a hashing algorithm turns data into a compact fingerprint that changes when the input changes."
-    },   
+    },
     {
         "instruction": "What are the most common hashing algorithms?",
         "input": "",
         "output": "The most common modern hashing algorithms in security work are the SHA-2 family, such as SHA-256 and SHA-512, and the SHA-3 family. NIST’s hash-functions project identifies approved secure hash algorithms in FIPS 180-4 and FIPS 202, covering SHA-2 and SHA-3 standards. In current practical use, SHA-256 is especially common, while older algorithms such as MD5 and SHA-1 are widely considered inadequate for many security purposes."
-    },  
+    },
     {
         "instruction": "What are the key components of hashing algorithm?",
         "input": "",
         "output": "The key components of a hashing algorithm are the input data, the transformation process defined by the algorithm, and the resulting fixed-length hash output. For password hashing specifically, modern schemes also use additional inputs such as a salt and a cost factor to strengthen resistance to offline cracking. In practical terms, a secure hashing process depends not only on the hash function itself but also on how it is applied in the larger security design."
-    },   
+    },
     {
         "instruction": "What is transport layer security (TLS)?",
         "input": "",
         "output": "Transport Layer Security, or TLS, is a cryptographic protocol used to protect data in transit between communicating systems. NIST describes TLS and DTLS as examples of authenticated protected channels in which the certificate presented by the recipient is verified by the initiator. In simple terms, TLS helps provide encrypted and authenticated communication for protocols such as HTTPS."
-    },   
+    },
     {
         "instruction": "What are the most used transport layer security (TLS) versions?",
         "input": "",
         "output": "The most used TLS versions today are TLS 1.2 and TLS 1.3. Current standards and deployment reporting show TLS 1.3 as the modern preferred version, while TLS 1.2 remains extremely widely supported and deployed for compatibility. Older versions such as TLS 1.0 and TLS 1.1 are legacy versions and are no longer considered current best practice for secure deployment."
-    },   
+    },
     {
         "instruction": "What are the key components of transport layer security (TLS)?",
         "input": "",
@@ -1148,47 +1148,47 @@
         "instruction": "What are the key components of Active Directory?",
         "input": "",
         "output": "The key components of Active Directory include forests, trees, domains, domain controllers, organizational units, objects, the schema, and the global catalog. Microsoft’s current Active Directory logical-model documentation presents these as core parts of how AD is structured and how directory data is stored, organized, and located across an environment. In simple terms, Active Directory is built from the containers, rules, and servers that together manage identities, resources, and directory information."
-    },   
+    },
     {
         "instruction": "What is a forest in Active Directory?",
         "input": "",
         "output": "A forest in Active Directory is the highest-level logical container in an AD environment. Microsoft defines a forest as a collection of one or more Active Directory domains that share a common logical structure, directory schema, directory configuration, and global catalog. Domains in the same forest are automatically linked by two-way transitive trust relationships, which lets them work together as one broader directory environment."
-    },   
+    },
     {
         "instruction": "What is a tree in Active Directory?",
         "input": "",
         "output": "A tree in Active Directory is a set of one or more domains arranged in a hierarchy and connected by trust relationships. Within the Microsoft Active Directory logical model, a tree exists inside a forest and is part of the larger domain structure that shares the forest’s schema and configuration. In practical terms, a tree groups related domains together under a common naming hierarchy within the forest."
-    },  
+    },
     {
         "instruction": "What is a domain in Active Directory?",
         "input": "",
         "output": "A domain in Active Directory is a logical and administrative boundary that stores directory objects such as users, computers, and groups. Microsoft’s AD DS overview explains that Active Directory stores information about network objects and makes that data available to authorized users and administrators, and the logical model places that data within domains. In simple terms, a domain is the core unit where identities, policies, and directory data are organized and managed."
-    },   
+    },
     {
         "instruction": "What is a domain controller (DC) in Active Directory?",
         "input": "",
         "output": "A domain controller, or DC, is a server running Active Directory Domain Services that stores directory data and responds to directory-related requests. Microsoft explains that AD DS provides the methods for storing directory data and making it available to network users and administrators, which is the role carried out by domain controllers in an AD environment. In practice, a domain controller is the server that authenticates users, enforces directory operations, and helps keep the domain functioning."
-    },   
+    },
     {
         "instruction": "What is a group policy object (GPO) in Active Directory?",
         "input": "",
         "output": "A Group Policy Object, or GPO, is a virtual collection of policy settings used to manage user and computer configurations in a Windows environment. Microsoft’s current Group Policy documentation says GPOs include both computer and user settings, and they can be linked to sites, domains, and organizational units to define where they apply. In simple terms, a GPO is the policy package administrators use to centrally control settings and behavior across Active Directory-managed systems."
-    },  
+    },
     {
         "instruction": "What is an organizational unit (OU) in Active Directory?",
         "input": "",
         "output": "An organizational unit, or OU, is a container within a domain that is used to store and organize directory objects. Microsoft’s schema documentation defines the Organizational-Unit class as a container for storing users, computers, and other account objects, and its OU-design guidance shows OUs are used to structure administration inside a domain. In practice, OUs help administrators group objects logically and apply management or policy more precisely."
-    },   
+    },
     {
         "instruction": "What is an object in Active Directory?",
         "input": "",
         "output": "An object in Active Directory is an individual item stored in the directory, such as a user, computer, group, printer, or other network resource. Microsoft’s AD DS overview describes the directory as a hierarchical structure that stores information about objects on a network. In simple terms, an object is a specific directory entry representing something that Active Directory tracks and manages."
-    },   
+    },
     {
         "instruction": "What is a schema in Active Directory?",
         "input": "",
         "output": "The schema in Active Directory is the set of definitions that determines what kinds of objects can exist in the directory and what attributes those objects can have. Microsoft’s logical-model documentation says a forest shares a common directory schema made up of class and attribute definitions. In practical terms, the schema is the rulebook that defines the structure of data inside Active Directory."
-    },   
+    },
     {
         "instruction": "What is a global catalog (GC) in Active Directory?",
         "input": "",
@@ -1198,50 +1198,55 @@
         "instruction": "What is the meaning of credential dumping?",
         "input": "",
         "output": "Credential dumping is the act of extracting account login material from an operating system, usually in the form of password hashes, cleartext passwords, tickets, or other authentication data. MITRE ATT&CK describes OS credential dumping as an attempt to obtain account login and credential material from caches, memory, or operating-system structures. In practical terms, it is a credential-theft technique used to capture authentication secrets that can later be abused for access or lateral movement."
-    },   
+    },
     {
         "instruction": "What credentials hackers target on Windows?",
         "input": "",
         "output": "On Windows, attackers commonly target password hashes, cleartext passwords when present, Kerberos Ticket Granting Tickets, and other credentials stored by applications or the operating system. Microsoft’s Credential Guard documentation specifically highlights NTLM password hashes, Kerberos TGTs, and credentials stored by applications as high-value secrets that need protection. In practical terms, Windows attackers focus on the authentication material that can be reused to impersonate users or services."
-    },   
+    },
     {
         "instruction": "What credentials hackers target on Linux?",
         "input": "",
         "output": "On Linux, attackers commonly target local account password hashes, authentication data tied to PAM-managed logins, SSH-related access material, and any reusable credentials stored in files or memory. MITRE notes that most modern Linux systems use /etc/passwd and /etc/shadow, with password hashes stored in /etc/shadow, while PAM documentation shows Linux authentication commonly relies on those account stores. In practical terms, Linux attackers look for the credentials that allow account access directly or support offline password cracking and privilege escalation."
-    },  
+    },
     {
         "instruction": "What is Kerberos on Windows?",
         "input": "",
         "output": "Kerberos on Windows is the network authentication protocol used by Active Directory environments to verify identities and support secure sign-in and service access. Microsoft’s Windows authentication documentation treats Kerberos as a core Windows authentication technology, and Credential Guard specifically protects Kerberos Ticket Granting Tickets because they are central to that authentication flow. In simple terms, Kerberos is the Windows domain authentication system that uses tickets instead of repeatedly sending passwords across the network."
-    },   
+    },
     {
         "instruction": "What is the meaning of pass-the-hash (PtH)?",
         "input": "",
         "output": "Pass-the-Hash, or PtH, is the use of a stolen password hash to authenticate as a user without needing the original plaintext password. MITRE ATT&CK describes it as the use of alternate authentication material, where adversaries use password hashes to authenticate to systems. In practical terms, PtH works by reusing the hash itself as the credential material."
-    },   
+    },
     {
         "instruction": "What are the key components of pass-the-hash (PtH)?",
         "input": "",
         "output": "The key components of PtH are a stolen password hash, an authentication path that accepts that hash-derived material, and a target system or service where the identity can be reused. MITRE’s PtH guidance centers on adversaries using stolen password hashes as alternate authentication material, which captures the core structure of the technique. In simple terms, PtH depends on obtaining a valid hash, presenting it in the right authentication context, and gaining access as the associated account."
-    },  
+    },
     {
         "instruction": "What is Local Security Authority Subsystem Service (LSASS) on Windows?",
         "input": "",
         "output": "LSASS is the Windows process associated with the Local Security Authority, which is responsible for enforcing local security policy and handling security-related operations. Microsoft’s current LSA protection guidance explains that added protection is used to prevent code injection into the Local Security Authority process because compromising it can expose credentials. In practical terms, LSASS is one of the central Windows security processes because it is closely tied to authentication and credential handling."
-    },   
+    },
     {
         "instruction": "What is Security Account Manager (SAM) database on Windows?",
         "input": "",
         "output": "The Security Account Manager, or SAM, database is the Windows database that stores local user accounts and local groups. Microsoft’s Windows authentication documentation states that SAM is present in every Windows operating system, although domain accounts are handled by Active Directory when a machine is domain-joined. In simple terms, SAM is the local account store Windows uses for identities that belong to the computer itself rather than the domain."
-    },   
+    },
     {
         "instruction": "What is Windows Credential Manager?",
         "input": "",
         "output": "Windows Credential Manager is a Windows feature that stores credentials so users and applications can reuse them for authentication without re-entering them every time. Microsoft’s credential-storage documentation places stored credentials in the broader Windows authentication ecosystem alongside LSASS memory and authoritative databases such as SAM and Active Directory. In practical terms, Credential Manager is the built-in Windows credential store for saved sign-in information used by the operating system and applications."
-    },   
+    },
     {
         "instruction": "What are the domain admin credentials on Windows?",
         "input": "",
         "output": "Domain admin credentials are the authentication credentials associated with accounts that belong to the highly privileged Domain Admins group in an Active Directory domain. Microsoft’s Active Directory documentation describes domains and domain administration as core parts of the directory environment, and accounts with Domain Admins membership typically have broad administrative control over domain-joined systems and directory operations. In practical terms, “domain admin credentials” means the passwords, hashes, tickets, certificates, or other authentication material that let a Domain Admin account prove its identity and exercise domain-level privileges."
+    },
+    {
+        "instruction": "What is data exfiltration?",
+        "input": "",
+        "output": "Data exfiltration is the unauthorized transfer of data from a system or network to an external destination controlled by an attacker. It can happen through malware, compromised accounts, remote access tools, or covert network channels. Attackers often use it to steal sensitive information before a larger attack is revealed."
     }
 ]
