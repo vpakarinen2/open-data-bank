@@ -628,3 +628,153 @@ Answer: A web application is a software application that runs on a web server an
 ### Document 210
 Question: What is Amazon Web Services (AWS)?
 Answer: Amazon Web Services, or AWS, is Amazon’s cloud computing platform. AWS describes itself as a broad and widely adopted cloud platform that provides services such as compute, storage, databases, networking, analytics, and AI on global infrastructure. In simple terms, AWS is a major public-cloud provider that organizations use to build, host, and scale digital systems and applications.
+### Document 211
+Question: What is an infostealer?
+Answer: An infostealer is malware designed to collect and exfiltrate sensitive information from an infected device. Microsoft’s recent threat reporting describes infostealers such as Lumma as malware capable of stealing data from browsers, applications, and cryptocurrency wallets, and in some cases installing additional malware. In practical terms, an infostealer is built to harvest valuable digital information such as credentials, tokens, wallet data, and other user or system data for criminal use.
+### Document 212
+Question: What are the key components of infostealer?
+Answer: The key components of an infostealer usually include a collection module, targeting logic for valuable data sources, local execution on the victim device, and an exfiltration path to send stolen data back to the operator. Microsoft’s Lumma analysis shows modern infostealers commonly focus on browsers, applications, and cryptocurrency wallets, which reflects the main categories of data they are engineered to collect. Many modern infostealers also include command-and-control connectivity and, in some cases, the ability to install or facilitate additional malware.
+### Document 213
+Question: What is a keylogger?
+Answer: A keylogger is a program designed to record which keys are pressed on a keyboard. NIST defines a key logger as a program used to obtain passwords or encryption keys and thus bypass other security measures. In simple terms, a keylogger captures typed input so an attacker can later recover sensitive information entered by the victim.
+### Document 214
+Question: What are the key components of keylogger?
+Answer: The key components of a keylogger are a mechanism to capture keystrokes, a way to store or package the captured data, and a method to retrieve or transmit that data. NIST’s definition focuses on the core function of recording keyboard input to obtain passwords or encryption keys, which reflects the central design purpose of keylogging. In practice, a keylogger may also include persistence and stealth features, but its defining components are input capture, data retention, and attacker access to the recorded content.
+### Document 215
+Question: What is the meaning of malvertising?
+Answer: Malvertising means the malicious use of online advertising to expose users to harmful content, redirects, or downloads. Microsoft defines malvertising as the malicious use of Internet ads, including hacked or deceptive ads that send users to problematic sites or downloads. Recent Microsoft threat reporting also shows malvertising continuing to be used at scale to direct victims toward infostealer infections and other malware delivery chains.
+### Document 216
+Question: What are the key components of malvertising?
+Answer: The key components of malvertising are a malicious or compromised ad, a delivery path through an advertising or web ecosystem, and a destination or follow-on action that benefits the attacker. Microsoft’s definition emphasizes injected or deceptive ads that redirect users to harmful sites or downloads, which captures the basic structure of a malvertising chain. In recent campaigns, those chains have included redirectors, intermediary sites, and hosting platforms used to deliver infostealers or other malicious payloads.
+### Document 217
+Question: What is the meaning of steganography?
+Answer: Steganography is the art and science of hiding the existence of a communication by embedding data within other data. NIST defines it as communicating in a way that hides the existence of the communication, and also describes it as embedding data within other data to conceal it. In practical terms, steganography hides a secret message inside an ordinary-looking file such as an image, audio file, or other digital object.
+### Document 218
+Question: What are the key components of steganography?
+Answer: The key components of steganography are the hidden data, the carrier or cover medium that conceals it, and the method used to embed and later recover the concealed information. NIST’s descriptions make clear that the central idea is placing one set of data inside another so the communication itself is hidden from view. In simple terms, steganography needs something to hide, something to hide it inside, and a technique that makes the hidden content difficult to notice.
+### Document 219
+Question: What is the meaning of trojanized software?
+Answer: Trojanized software is software that appears legitimate or desirable but has been modified or packaged to include malicious functionality. Recent CISA and Microsoft reporting continues to show attackers disguising malicious payloads as trusted software such as browser installers, updates, or development-related content in order to gain execution on victim devices. In practical terms, trojanized software is a deceptive delivery method that uses the appearance of normal software to get malware onto a system.
+### Document 220
+Question: What are the key components of trojanized software?
+Answer: The key components of trojanized software are a legitimate-looking software package, a hidden malicious payload or capability, and a delivery or installation path that convinces the victim to trust and run it. Recent reporting on fake browser installers and similar lures shows that the deception depends on the software looking real enough that the victim treats it as safe or useful. In simple terms, trojanized software combines trusted appearance, hidden malicious code, and user execution to achieve compromise.
+### Document 221
+Question: What is a fake website?
+Answer: A fake website is a fraudulent site designed to imitate a legitimate brand, service, or organization in order to deceive visitors. Recent Microsoft reporting shows phishing actors continuing to use spoofed domains and lookalike web infrastructure to make malicious pages appear trustworthy and collect credentials or other sensitive information. In practical terms, a fake website is built to look real enough that the victim interacts with it as if it were the genuine site.
+### Document 222
+Question: What are the key components of fake website?
+Answer: The key components of a fake website usually include a convincing visual imitation of a real site, a spoofed or lookalike domain or page path, and a mechanism to capture data, payments, or logins. Current phishing reporting shows that these sites often rely on impersonated branding, realistic page layout, and trust signals that make the page appear legitimate at first glance. In simple terms, a fake website combines deceptive appearance, a believable web address or route, and a target action that benefits the scammer.
+### Document 223
+Question: What is a fake application?
+Answer: A fake application is software that pretends to be legitimate, useful, or official but is actually designed to deceive the user or carry out unauthorized actions. Google’s 2025 Android ecosystem reporting says it blocked more than 1.75 million policy-violating apps and over 80,000 bad developer accounts, showing that harmful and deceptive apps remain a major real-world problem. In practice, a fake application may impersonate a real service, promise a desirable function, or hide malware, fraud, or abusive behavior behind a normal-looking app interface.
+### Document 224
+Question: What are the key components of fake application?
+Answer: The key components of a fake application are a legitimate-looking name or branding, a believable function or promise, and hidden malicious, deceptive, or policy-violating behavior. Google’s app-safety reporting shows that harmful apps are often stopped before publication because they cause real-world harm such as malware and financial fraud, which reflects the core design pattern behind fake apps. In simple terms, a fake application combines trusted appearance, misleading purpose, and concealed harmful activity.
+### Document 225
+Question: What are the current scam and fraud trends?
+Answer: Current scam and fraud trends include investment and cryptocurrency fraud, business email compromise, tech-support scams, account-takeover scams, text-message scams, sextortion, and increasingly sophisticated AI-assisted deception. The FBI’s 2025 IC3 report says investment-related fraud remained the largest loss category, followed by business email compromise and tech-support scams, while INTERPOL’s 2026 assessment highlights hybrid tactics, global scam centres, and a rise in sextortion. The broader trend is that fraud is becoming more industrialized, more personalized, and more convincing across email, text, social media, voice, and payment channels.
+### Document 226
+Question: How are cybercriminals laundering money?
+Answer: Cybercriminals launder money by moving illicit proceeds through layered transactions and intermediaries so the funds become harder to trace back to the original crime. Recent FATF reporting says criminals exploit virtual assets and cross-border digital finance because these systems can make movement of value faster, more fragmented, and harder to supervise when controls are weak. At a high level, the goal is to disguise the source, ownership, or control of criminal proceeds so they can be spent or reintegrated with less suspicion.
+### Document 227
+Question: What is a shell company?
+Answer: A shell company is a legal entity that has little or no real business operations, employees, or significant assets of its own. FinCEN’s beneficial-ownership rulemakings and AML guidance treat shell-company opacity as a serious risk because legal entities can be used to obscure the real people behind transactions and assets. In practical terms, a shell company can be legitimate in some contexts, but it is also a well-known vehicle for concealing ownership and moving suspicious funds.
+### Document 228
+Question: What are the key components of shell company?
+Answer: The key components of a shell company are a legal corporate structure, little or no substantial operating activity, and limited transparency about the true beneficial owner or controller. AML authorities focus on these entities because the corporate form can give a transaction a lawful appearance while hiding who actually benefits from it. In simple terms, a shell company combines formal legal existence with minimal real business substance and reduced ownership visibility.
+### Document 229
+Question: What is the meaning of account takeover?
+Answer: Account takeover is unauthorized access to and control over an existing user account by someone other than the legitimate owner. The OCC’s 2025 cybersecurity report says cybercriminals use multiple methods to gain unauthorized access to or otherwise take over customer accounts, often beginning with phishing and stolen credentials. In practice, account takeover is a form of identity and fraud abuse in which the attacker hijacks a real account instead of creating a new fake one.
+### Document 230
+Question: What are the key components of account takeover?
+Answer: The key components of account takeover are access to a real account, compromise of authentication material or recovery paths, and unauthorized actions performed under the victim’s identity. The OCC notes that stolen customer credentials can give attackers access to account information for fraud and identity theft, which captures the main structure of many account-takeover events. In simple terms, account takeover combines identity compromise, unauthorized account control, and misuse of the victim’s legitimate account privileges.
+### Document 231
+Question: What is a digital certificate?
+Answer: A digital certificate is an electronic credential that binds an identity to a public key and is used to support authentication, encryption, or digital signatures. NIST describes certificates in the public-key context as data structures that associate a subject with a public key, typically within a public key infrastructure. In practical terms, a digital certificate helps other systems verify who they are communicating with and whether a cryptographic key should be trusted.
+### Document 232
+Question: What are the most common digital certificates?
+Answer: The most common digital certificate categories are TLS/SSL certificates for websites and servers, code-signing certificates for software, and client or user certificates for identity-based authentication. Industry PKI references also commonly include email-signing certificates and document-signing certificates as widely used certificate types. In practice, TLS certificates are the most visible to ordinary users, while code-signing and client certificates are especially important in enterprise and software-security workflows.
+### Document 233
+Question: What are the key components of digital certificate?
+Answer: The key components of a digital certificate typically include the subject identity, the subject’s public key, the issuer identity, validity dates, serial number, and the issuer’s digital signature. Certificate formats also commonly include information about intended usage, cryptographic algorithms, and trust-chain details that help relying systems validate the certificate. In simple terms, a certificate needs identity information, key information, time limits, and proof that a trusted issuer signed it.
+### Document 234
+Question: What is the meaning of hashing in cyber security?
+Answer: Hashing in cybersecurity is the process of applying a mathematical algorithm to data to produce a fixed-size value that represents that data. NIST defines hashing as using a mathematical algorithm against data to produce a numeric value representative of that data. In practice, hashing is used for integrity checking, secure password storage workflows, digital signatures, and many other security functions.
+### Document 235
+Question: What is a hashing algorithm?
+Answer: A hashing algorithm is a mathematical function that maps input data of arbitrary length to a fixed-length output often called a hash value or message digest. NIST states that a hash algorithm is used to map a message of arbitrary length to a fixed-length message digest. In simple terms, a hashing algorithm turns data into a compact fingerprint that changes when the input changes.
+### Document 236
+Question: What are the most common hashing algorithms?
+Answer: The most common modern hashing algorithms in security work are the SHA-2 family, such as SHA-256 and SHA-512, and the SHA-3 family. NIST’s hash-functions project identifies approved secure hash algorithms in FIPS 180-4 and FIPS 202, covering SHA-2 and SHA-3 standards. In current practical use, SHA-256 is especially common, while older algorithms such as MD5 and SHA-1 are widely considered inadequate for many security purposes.
+### Document 237
+Question: What are the key components of hashing algorithm?
+Answer: The key components of a hashing algorithm are the input data, the transformation process defined by the algorithm, and the resulting fixed-length hash output. For password hashing specifically, modern schemes also use additional inputs such as a salt and a cost factor to strengthen resistance to offline cracking. In practical terms, a secure hashing process depends not only on the hash function itself but also on how it is applied in the larger security design.
+### Document 238
+Question: What is transport layer security (TLS)?
+Answer: Transport Layer Security, or TLS, is a cryptographic protocol used to protect data in transit between communicating systems. NIST describes TLS and DTLS as examples of authenticated protected channels in which the certificate presented by the recipient is verified by the initiator. In simple terms, TLS helps provide encrypted and authenticated communication for protocols such as HTTPS.
+### Document 239
+Question: What are the most used transport layer security (TLS) versions?
+Answer: The most used TLS versions today are TLS 1.2 and TLS 1.3. Current standards and deployment reporting show TLS 1.3 as the modern preferred version, while TLS 1.2 remains extremely widely supported and deployed for compatibility. Older versions such as TLS 1.0 and TLS 1.1 are legacy versions and are no longer considered current best practice for secure deployment.
+### Document 240
+Question: What are the key components of transport layer security (TLS)?
+Answer: The key components of TLS include the handshake process, certificate-based authentication, negotiated cryptographic algorithms, session keys, and encrypted protected record exchange. IETF and NIST materials show that TLS works by authenticating peers, negotiating security parameters, and then protecting data over an authenticated channel. In practical terms, TLS needs a way to establish trust, agree on cryptography, derive keys, and then use those keys to secure the communication.
+### Document 241
+Question: What are the key components of Active Directory?
+Answer: The key components of Active Directory include forests, trees, domains, domain controllers, organizational units, objects, the schema, and the global catalog. Microsoft’s current Active Directory logical-model documentation presents these as core parts of how AD is structured and how directory data is stored, organized, and located across an environment. In simple terms, Active Directory is built from the containers, rules, and servers that together manage identities, resources, and directory information.
+### Document 242
+Question: What is a forest in Active Directory?
+Answer: A forest in Active Directory is the highest-level logical container in an AD environment. Microsoft defines a forest as a collection of one or more Active Directory domains that share a common logical structure, directory schema, directory configuration, and global catalog. Domains in the same forest are automatically linked by two-way transitive trust relationships, which lets them work together as one broader directory environment.
+### Document 243
+Question: What is a tree in Active Directory?
+Answer: A tree in Active Directory is a set of one or more domains arranged in a hierarchy and connected by trust relationships. Within the Microsoft Active Directory logical model, a tree exists inside a forest and is part of the larger domain structure that shares the forest’s schema and configuration. In practical terms, a tree groups related domains together under a common naming hierarchy within the forest.
+### Document 244
+Question: What is a domain in Active Directory?
+Answer: A domain in Active Directory is a logical and administrative boundary that stores directory objects such as users, computers, and groups. Microsoft’s AD DS overview explains that Active Directory stores information about network objects and makes that data available to authorized users and administrators, and the logical model places that data within domains. In simple terms, a domain is the core unit where identities, policies, and directory data are organized and managed.
+### Document 245
+Question: What is a domain controller (DC) in Active Directory?
+Answer: A domain controller, or DC, is a server running Active Directory Domain Services that stores directory data and responds to directory-related requests. Microsoft explains that AD DS provides the methods for storing directory data and making it available to network users and administrators, which is the role carried out by domain controllers in an AD environment. In practice, a domain controller is the server that authenticates users, enforces directory operations, and helps keep the domain functioning.
+### Document 246
+Question: What is a group policy object (GPO) in Active Directory?
+Answer: A Group Policy Object, or GPO, is a virtual collection of policy settings used to manage user and computer configurations in a Windows environment. Microsoft’s current Group Policy documentation says GPOs include both computer and user settings, and they can be linked to sites, domains, and organizational units to define where they apply. In simple terms, a GPO is the policy package administrators use to centrally control settings and behavior across Active Directory-managed systems.
+### Document 247
+Question: What is an organizational unit (OU) in Active Directory?
+Answer: An organizational unit, or OU, is a container within a domain that is used to store and organize directory objects. Microsoft’s schema documentation defines the Organizational-Unit class as a container for storing users, computers, and other account objects, and its OU-design guidance shows OUs are used to structure administration inside a domain. In practice, OUs help administrators group objects logically and apply management or policy more precisely.
+### Document 248
+Question: What is an object in Active Directory?
+Answer: An object in Active Directory is an individual item stored in the directory, such as a user, computer, group, printer, or other network resource. Microsoft’s AD DS overview describes the directory as a hierarchical structure that stores information about objects on a network. In simple terms, an object is a specific directory entry representing something that Active Directory tracks and manages.
+### Document 249
+Question: What is a schema in Active Directory?
+Answer: The schema in Active Directory is the set of definitions that determines what kinds of objects can exist in the directory and what attributes those objects can have. Microsoft’s logical-model documentation says a forest shares a common directory schema made up of class and attribute definitions. In practical terms, the schema is the rulebook that defines the structure of data inside Active Directory.
+### Document 250
+Question: What is a global catalog (GC) in Active Directory?
+Answer: The global catalog, or GC, is a distributed data repository that contains searchable directory information from every domain in a forest. Microsoft states that the Global Catalog contains a partial replica of every domain directory and an entry for every object in the enterprise forest, but not all properties of each object. In simple terms, the GC lets Active Directory perform forest-wide searches and quickly locate objects across domains.
+### Document 251
+Question: What is the meaning of credential dumping?
+Answer: Credential dumping is the act of extracting account login material from an operating system, usually in the form of password hashes, cleartext passwords, tickets, or other authentication data. MITRE ATT&CK describes OS credential dumping as an attempt to obtain account login and credential material from caches, memory, or operating-system structures. In practical terms, it is a credential-theft technique used to capture authentication secrets that can later be abused for access or lateral movement.
+### Document 252
+Question: What credentials hackers target on Windows?
+Answer: On Windows, attackers commonly target password hashes, cleartext passwords when present, Kerberos Ticket Granting Tickets, and other credentials stored by applications or the operating system. Microsoft’s Credential Guard documentation specifically highlights NTLM password hashes, Kerberos TGTs, and credentials stored by applications as high-value secrets that need protection. In practical terms, Windows attackers focus on the authentication material that can be reused to impersonate users or services.
+### Document 253
+Question: What credentials hackers target on Linux?
+Answer: On Linux, attackers commonly target local account password hashes, authentication data tied to PAM-managed logins, SSH-related access material, and any reusable credentials stored in files or memory. MITRE notes that most modern Linux systems use /etc/passwd and /etc/shadow, with password hashes stored in /etc/shadow, while PAM documentation shows Linux authentication commonly relies on those account stores. In practical terms, Linux attackers look for the credentials that allow account access directly or support offline password cracking and privilege escalation.
+### Document 254
+Question: What is Kerberos on Windows?
+Answer: Kerberos on Windows is the network authentication protocol used by Active Directory environments to verify identities and support secure sign-in and service access. Microsoft’s Windows authentication documentation treats Kerberos as a core Windows authentication technology, and Credential Guard specifically protects Kerberos Ticket Granting Tickets because they are central to that authentication flow. In simple terms, Kerberos is the Windows domain authentication system that uses tickets instead of repeatedly sending passwords across the network.
+### Document 255
+Question: What is the meaning of pass-the-hash (PtH)?
+Answer: Pass-the-Hash, or PtH, is the use of a stolen password hash to authenticate as a user without needing the original plaintext password. MITRE ATT&CK describes it as the use of alternate authentication material, where adversaries use password hashes to authenticate to systems. In practical terms, PtH works by reusing the hash itself as the credential material.
+### Document 256
+Question: What are the key components of pass-the-hash (PtH)?
+Answer: The key components of PtH are a stolen password hash, an authentication path that accepts that hash-derived material, and a target system or service where the identity can be reused. MITRE’s PtH guidance centers on adversaries using stolen password hashes as alternate authentication material, which captures the core structure of the technique. In simple terms, PtH depends on obtaining a valid hash, presenting it in the right authentication context, and gaining access as the associated account.
+### Document 257
+Question: What is Local Security Authority Subsystem Service (LSASS) on Windows?
+Answer: LSASS is the Windows process associated with the Local Security Authority, which is responsible for enforcing local security policy and handling security-related operations. Microsoft’s current LSA protection guidance explains that added protection is used to prevent code injection into the Local Security Authority process because compromising it can expose credentials. In practical terms, LSASS is one of the central Windows security processes because it is closely tied to authentication and credential handling.
+### Document 258
+Question: What is Security Account Manager (SAM) database on Windows?
+Answer: The Security Account Manager, or SAM, database is the Windows database that stores local user accounts and local groups. Microsoft’s Windows authentication documentation states that SAM is present in every Windows operating system, although domain accounts are handled by Active Directory when a machine is domain-joined. In simple terms, SAM is the local account store Windows uses for identities that belong to the computer itself rather than the domain.
+### Document 259
+Question: What is Windows Credential Manager?
+Answer: Windows Credential Manager is a Windows feature that stores credentials so users and applications can reuse them for authentication without re-entering them every time. Microsoft’s credential-storage documentation places stored credentials in the broader Windows authentication ecosystem alongside LSASS memory and authoritative databases such as SAM and Active Directory. In practical terms, Credential Manager is the built-in Windows credential store for saved sign-in information used by the operating system and applications.
+### Document 260
+Question: What are the domain admin credentials on Windows?
+Answer: Domain admin credentials are the authentication credentials associated with accounts that belong to the highly privileged Domain Admins group in an Active Directory domain. Microsoft’s Active Directory documentation describes domains and domain administration as core parts of the directory environment, and accounts with Domain Admins membership typically have broad administrative control over domain-joined systems and directory operations. In practical terms, “domain admin credentials” means the passwords, hashes, tickets, certificates, or other authentication material that let a Domain Admin account prove its identity and exercise domain-level privileges.
