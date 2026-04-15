@@ -30,7 +30,7 @@
         "output": "A worm is self-replicating malware that spreads across networks or systems without requiring a host program or user action to reproduce. It often propagates by exploiting software vulnerabilities, misconfigurations, shared drives, or other exposed pathways. Worms can consume bandwidth, disrupt operations, deliver additional malicious payloads, and rapidly expand the scale of an attack."
     },    
     {
-        "instruction": "What is rookit?",
+        "instruction": "What is rootkit?",
         "input": "",
         "output": "A rootkit is malware designed to provide an attacker with privileged or administrative access while hiding its presence and activity on the system. It can modify or intercept normal operating system functions so security tools and users receive misleading information about what is running. Rootkits may be installed in applications, kernels, hypervisors, or firmware, which makes them especially difficult to detect and remove."
     },    
