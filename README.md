@@ -5,6 +5,7 @@ This data can be used for fine-tuning and RAG.
 ### Goals
 - First 100 added
 - Updated to 200
+- Updated to 250
 
 ### Current Data
 
