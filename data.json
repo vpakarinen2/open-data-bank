@@ -317,12 +317,12 @@
     {
         "instruction": "What are the techniques to bypass intrusion detection system (IDS)?",
         "input": "",
-        "output": "Attackers commonly try to reduce IDS visibility by making malicious activity look like normal traffic, using encrypted channels, fragmenting activity across systems or time, or exploiting gaps in logging and sensor coverage. At a high level, the defensive lesson is that IDS can be weakened by blind spots, poor tuning, insufficient decryption visibility, incomplete telemetry, and weak correlation across network and host data. Because this topic can be misused, the safe takeaway is that defenders should strengthen coverage, normalize and correlate events, and validate detection content regularly rather than focusing on offensive evasion steps."
+        "output": "Techniques used to bypass an intrusion detection system (IDS) generally focus on making malicious activity harder to recognize as suspicious. This can include disguising activity as normal network traffic, using encrypted communication, spreading actions across multiple systems or time periods, or taking advantage of limited visibility in monitored environments. The overall goal is to reduce the chance that the IDS will clearly identify the activity as malicious."
     },
     {
         "instruction": "What are the techniques to bypass endpoint detection and response (EDR)?",
         "input": "",
-        "output": "Attackers often attempt to avoid EDR by blending into legitimate administrator activity, abusing trusted system tools, operating in memory, or targeting the visibility and policy gaps that exist on endpoints. Recent CISA and Microsoft-aligned guidance consistently shows that living-off-the-land behavior, incomplete telemetry, and control gaps can make EDR less effective when not paired with strong configuration, identity controls, and response workflows. The safe and useful conclusion is that organizations should harden endpoints, reduce administrative abuse paths, collect broader telemetry, and test detections against realistic attacker behavior instead of seeking step-by-step bypass methods."
+        "output": "Techniques used to bypass endpoint detection and response (EDR) generally focus on reducing the visibility of malicious activity on a device. This can include blending into normal administrator or system activity, abusing trusted tools, operating mainly in memory, or taking advantage of gaps in what the endpoint security product can observe. The overall goal is to make the activity appear routine enough that it is less likely to be identified as malicious."
     },
     {
         "instruction": "What is active directory (AD)?",
